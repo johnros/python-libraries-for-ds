@@ -43,6 +43,13 @@ Curated list of python libraries for data, science, and data science.
 - **Paperspace Gradient**: Cloud notebooks with GPU. Machine learning development environment.
 - **[CoCalc](https://github.com/sagemathinc/cocalc)**: Collaborative computational environment. Real-time collaborative editing.
 - **[nteract](https://github.com/nteract/nteract)**: Desktop notebook application. Native desktop app for Jupyter notebooks.
+
+### Notebook Tools
+- **[jupyter-book](https://github.com/executablebooks/jupyter-book)**: Build books from notebooks. Create publication-quality books from Jupyter notebooks.
+- **[nbconvert](https://github.com/jupyter/nbconvert)**: Convert notebooks to various formats. Part of Jupyter ecosystem.
+- **[papermill](https://github.com/nteract/papermill)**: Parameterize and execute notebooks. Run notebooks with different parameters.
+- **[Quarto](https://github.com/quarto-dev/quarto-cli)** (5.1k GitHub stars): Scientific publishing system. Supports Jupyter notebooks, R Markdown, markdown. Reproducible research.
+
 ## Data Frames
 
 ### Core DataFrame Libraries
@@ -99,93 +106,6 @@ Curated list of python libraries for data, science, and data science.
 - **[Official site](https://docs.pola.rs/user-guide/ecosystem/)**: Official documentation for the Polars ecosystem.
 
 
-
-## DataBases
-
-### ORMs (Object-Relational Mappers)
-- **[SQLAlchemy](https://github.com/sqlalchemy/sqlalchemy)** (11.4k GitHub stars): Most popular Python ORM. Powerful, flexible, supports multiple databases. Core and ORM layers.
-- **[Django ORM](https://github.com/django/django)** (86.5k GitHub stars): Built into Django framework. Easy to use, migrations included. Great for Django projects.
-- **[Peewee](https://github.com/coleifer/peewee)** (11.9k GitHub stars): Lightweight ORM. Simple API, small footprint. Good for small to medium projects.
-- **[Tortoise ORM](https://github.com/tortoise/tortoise-orm)** (5.4k GitHub stars): Async ORM inspired by Django. Built for async/await. Supports PostgreSQL, MySQL, SQLite.
-- **[SQLModel](https://github.com/tiangolo/sqlmodel)** (17.5k GitHub stars): Modern ORM by FastAPI creator. Combines SQLAlchemy with Pydantic. Type-safe, auto-completion.
-- **[Databases](https://github.com/encode/databases)** (4k GitHub stars): Async database library. Works with SQLAlchemy Core. Supports async operations.
-- **[Pony ORM](https://github.com/ponyorm/pony)** (3.8k GitHub stars): ORM with Pythonic query syntax. Automatic query optimization. Good for complex queries.
-- **[SQLObject](https://github.com/sqlobject/sqlobject)**: Alternative ORM. Object-relational mapper with a different approach.
-- **Storm**: ORM for Python. Database abstraction layer.
-
-### Database Drivers & Adapters
-- **sqlite3**: Built-in SQLite database (Python standard library). No installation needed.
-- **Psycopg2/Psycopg3**: PostgreSQL adapter. Psycopg2 is mature, psycopg3 is modern async version.
-- **pg8000**: Pure Python PostgreSQL driver. No C dependencies.
-- **PyMySQL**: Pure Python MySQL client. No C dependencies. Good for compatibility.
-- **mysql-connector-python**: Official MySQL connector. Full MySQL protocol support.
-- **aiomysql**: Async MySQL driver. Built on PyMySQL. For async applications.
-- **asyncpg**: Fast async PostgreSQL driver. High performance, no ORM overhead.
-- **aiosqlite**: Async SQLite driver. For async SQLite operations.
-- **pymongo**: Official MongoDB driver. Full MongoDB feature support.
-- **motor**: Async MongoDB driver. Built on PyMongo. For async applications.
-- **redis-py**: Redis client library. Supports all Redis commands.
-- **aioredis**: Async Redis client. For async Redis operations.
-- **cx_Oracle**: Oracle database adapter. Official Oracle driver.
-- **pyodbc**: ODBC database connector. Works with SQL Server, Access, and other ODBC databases.
-- **pymssql**: Microsoft SQL Server driver. Pure Python implementation.
-
-### Query Builders & SQL Tools
-- **[Records](https://github.com/kennethreitz/records)** (7.2k GitHub stars): Simple SQL query interface. Returns results as named tuples or dictionaries.
-- **[Dataset](https://github.com/pudo/dataset)**: Simple database abstraction. Works with SQLite, PostgreSQL, MySQL. Great for data science.
-- **[Pypika](https://github.com/kayak/pypika)** (2.9k GitHub stars): SQL query builder. Write SQL queries in Python. Database agnostic.
-- **[SQLGlot](https://github.com/tobymao/sqlglot)** (8.8k GitHub stars): SQL parser, transpiler, and optimizer. Parse and transform SQL across dialects.
-
-### Connection Pooling & Management
-- **DBUtils**: Database connection pooling utilities. Works with various database drivers.
-- **SQLAlchemy Pool**: Built-in connection pooling in SQLAlchemy. Efficient connection management.
-
-### Migration Tools
-- **[Alembic](https://github.com/sqlalchemy/alembic)** (3.9k GitHub stars): Database migration tool for SQLAlchemy. Version control for database schemas.
-- **[Django Migrations](https://github.com/django/django)**: Built-in migration system for Django. Automatic migration generation.
-- **[yoyo-migrations](https://github.com/ollyc/yoyo)**: Database migration tool. Database agnostic, simple to use.
-
-### Data Integration & ETL
-- **[SQLAlchemy](https://github.com/sqlalchemy/sqlalchemy)**: Can be used for ETL operations with its Core layer.
-- **[Pandas](https://github.com/pandas-dev/pandas)**: Read/write to databases via SQLAlchemy or direct drivers. Great for data analysis workflows.
-- **[Polars](https://github.com/pola-rs/polars)**: Fast DataFrame library with database integration. Can query databases directly.
-- **[DuckDB](https://github.com/duckdb/duckdb)**: In-process analytical database. Can query Parquet, CSV, and other formats. SQL interface.
-- **[ConnectorX](https://github.com/sfu-db/connector-x)** (2.5k GitHub stars): Fast library for loading data from databases to DataFrames. Supports PostgreSQL, MySQL, SQLite, SQL Server, Oracle. Works with Pandas, PyArrow, Modin, Dask, Polars.
-- **[dbc](https://github.com/prefix-dev/dbc)** (79 GitHub stars): Command-line tool for installing and managing ADBC (Apache Arrow Database Connectivity) drivers. Works on macOS, Linux, and Windows. Supports reproducible project environments with driver lists and lockfiles.
-- **[Airflow](https://github.com/apache/airflow)** (43.9k GitHub stars): Apache Airflow - platform to programmatically author, schedule, and monitor workflows. Industry standard for workflow orchestration.
-- **[Prefect](https://github.com/PrefectHQ/prefect)** (21.4k GitHub stars): Modern workflow orchestration framework for building resilient data pipelines. Python-first development with dynamic workflows.
-- **[Luigi](https://github.com/spotify/luigi)** (18.6k GitHub stars): Python module for building complex pipelines of batch jobs. Handles dependency resolution, workflow management, visualization. Built-in Hadoop support.
-- **[Bonobo](https://github.com/python-bonobo/bonobo)**: ETL framework for Python. Simple, lightweight, and extensible.
-
-### NoSQL & Document Databases
-- **[pymongo](https://github.com/mongodb/mongo-python-driver)**: MongoDB driver (see Database Drivers).
-- **[motor](https://github.com/mongodb/motor)**: Async MongoDB driver (see Database Drivers).
-- **[cassandra-driver](https://github.com/datastax/python-driver)** (1.4k GitHub stars): Apache Cassandra driver. For distributed NoSQL databases.
-- **[elasticsearch-py](https://github.com/elastic/elasticsearch-py)** (4.4k GitHub stars): Elasticsearch client. For search and analytics.
-- **[neo4j](https://github.com/neo4j/neo4j-python-driver)** (1k GitHub stars): Neo4j graph database driver. For graph databases.
-
-### Time-Series Databases
-- **[influxdb-client](https://github.com/influxdata/influxdb-client-python)** (788 GitHub stars): InfluxDB client library. For time-series data.
-- **[timescaledb](https://github.com/timescale/timescaledb)** (21.5k GitHub stars): PostgreSQL extension for time-series. Works with standard PostgreSQL drivers.
-
-### Database Testing & Fixtures
-- **[pytest-postgresql](https://github.com/ClearcodeHQ/pytest-postgresql)** (505 GitHub stars): PostgreSQL fixtures for pytest. Isolated test databases.
-- **[pytest-mysql](https://github.com/ClearcodeHQ/pytest-mysql)** (56 GitHub stars): MySQL fixtures for pytest.
-- **[factory-boy](https://github.com/FactoryBoy/factory_boy)** (3.8k GitHub stars): Test data generation. Works with ORMs for creating test fixtures.
-
-
-## Data Classes and Validation
-
-- **[Pandera](https://github.com/unionai/pandera)** (4.2k GitHub stars): Data validation and testing.
-- **[Pydantic](https://github.com/pydantic/pydantic)** (26.5k GitHub stars): Data validation and parsing.
-- **[Hypothesis](https://github.com/HypothesisWorks/hypothesis)** (8.4k GitHub stars): Property-based testing.
-- **[Marshmallow](https://github.com/marshmallow-code/marshmallow)** (7.2k GitHub stars): Lightweight library for converting complex objects to and from simple Python datatypes. Object serialization/deserialization.
-- **[attrs](https://github.com/python-attrs/attrs)** (5.1k GitHub stars): Classes without boilerplate. The base attrs library that many validation tools build upon.
-- **[msgspec](https://github.com/jcrist/msgspec)**: Fast serialization and validation library with built-in support for JSON, MessagePack, YAML, and TOML.
-- **[Cerberus](https://github.com/pyeve/cerberus)**: Lightweight data validation library.
-- **[Voluptuous](https://github.com/alecthomas/voluptuous)**: Data validation library with a focus on clarity and simplicity.
-- **dataclasses**: Built-in (Python 3.7+). Classes with automatically generated special methods. No separate repo.
-- **TypedDict**: Built-in (Python 3.8+). Type hints for dictionaries with a fixed set of keys. No separate repo.
 
 ## Statistics
 
@@ -277,92 +197,6 @@ Curated list of python libraries for data, science, and data science.
 - **[Ray Tune](https://github.com/ray-project/ray)**: Hyperparameter tuning (part of Ray, see Distributed & Parallel Processing). Scalable hyperparameter search.
 
 
-## Visualization
-
-### General Visualization
-- **[Plotly Express](https://github.com/plotly/plotly.py)** (18.2k GitHub stars): High-level interface to Plotly. Easy-to-use plotting.
-- **[Plotly Graph Objects](https://github.com/plotly/plotly.py)** (18.2k GitHub stars): Low-level interface to Plotly. More control over plots.
-- **[Altair](https://github.com/vega/altair)** (10.1k GitHub stars): Declarative statistical visualization. Grammar of graphics.
-- **[Seaborn](https://github.com/mwaskom/seaborn)** (13.7k GitHub stars): Statistical data visualization. Built on matplotlib.
-- **[Matplotlib](https://github.com/matplotlib/matplotlib)** (22.3k GitHub stars): Most popular plotting library. Comprehensive 2D plotting.
-- **[Plotnine](https://github.com/has2k1/plotnine)** (4.5k GitHub stars): Grammar of graphics for Python. ggplot2 port.
-- **[Bokeh](https://github.com/bokeh/bokeh)** (19k GitHub stars): Interactive visualization library. Great for web applications.
-- **[Holoviews](https://github.com/holoviz/holoviews)** (2.9k GitHub stars): High-level visualization library. Declarative plotting.
-- **[Datashader](https://github.com/holoviz/datashader)** (3.2k GitHub stars): Rasterization pipeline for large datasets. Fast visualization of big data.
-
-### Specialized Visualization
-- **[missingno](https://github.com/ResidentMario/missingno)**: Visualize missing data patterns. Matrix plots, bar charts, and heatmaps for missing data.
-- **[yellowbrick](https://github.com/DistrictDataLabs/yellowbrick)**: ML visualization suite (also in Classic ML section). Visual analysis tools for ML.
-- **[wordcloud](https://github.com/amueller/word_cloud)** (10.5k GitHub stars): Word cloud generation library. Create word clouds from text.
-- **[Great Tables](https://github.com/posit-dev/great-tables)** (2.6k GitHub stars): Publication-quality display tables from Pandas or Polars DataFrames. Headers, footers, formatting, styling. Renders to HTML or images. By Posit.
-- **[mplfinance](https://github.com/matplotlib/mplfinance)**: Financial plotting library. Candlestick charts, technical indicators.
-- **[pygal](https://github.com/Kozea/pygal)**: SVG charting library. Create interactive SVG charts.
-- **[graphviz](https://github.com/xflr6/graphviz)**: Graph visualization library. Create and render graph structures.
-
-### Geographic Visualization
-- **[Geoplotlib](https://github.com/andrea-cuttone/geoplotlib)** (1k GitHub stars): Geographic data visualization toolkit.
-- **[Geoviews](https://github.com/holoviz/geoviews)** (624 GitHub stars): Interactive geospatial visualizations with HoloViews.
-- **[Cartopy](https://github.com/SciTools/cartopy)** (1.6k GitHub stars): Cartographic projections and mapping (matplotlib extension).
-- **[Folium](https://github.com/python-visualization/folium)** (7.3k GitHub stars): Interactive maps using Leaflet.js. Great for web maps.
-
-
-
-## Algebra
-
-### Core Numerical Computing
-- **[Numpy](https://github.com/numpy/numpy)** (31.3k GitHub stars): Numerical computing. Foundation for scientific Python.
-- **[Scipy](https://github.com/scipy/scipy)** (14.3k GitHub stars): Scientific computing. Built on NumPy, includes optimization, integration, interpolation, etc.
-- **[Sympy](https://github.com/sympy/sympy)** (14.3k GitHub stars): Symbolic computing. Computer algebra system.
-- **[mlx](https://github.com/ml-explore/mlx)** (23.5k GitHub stars): Apple's linear algebra. Optimized for Apple Silicon.
-- **[JAX](https://github.com/google/jax)** (28.9k GitHub stars): Automatic differentiation and numerical computing. NumPy-compatible with GPU/TPU support.
-- **[PyTorch](https://github.com/pytorch/pytorch)** (96.8k GitHub stars): Deep learning framework with tensor operations (also in Deep Learning section).
-
-### Performance & GPU Acceleration
-- **[CuPy](https://github.com/cupy/cupy)** (10.7k GitHub stars): NumPy-compatible GPU array library. NumPy for the GPU with nearly identical API. Runs on NVIDIA GPUs.
-- **[Numba](https://github.com/numba/numba)** (10.9k GitHub stars): JIT (Just-In-Time) compiler that translates a subset of Python and NumPy code into fast machine code using LLVM. NumPy-aware dynamic Python compiler.
-- **[Cython](https://github.com/cython/cython)**: C extensions for Python. Used for performance optimization. Compile Python-like code to C.
-- **[Theano](https://github.com/Theano/Theano)**: (Deprecated) Historical deep learning library. No longer maintained but was influential in the development of modern deep learning frameworks. 
-
-
-## FrontEnds
-
-### Web Frameworks (APIs & Full-Stack)
-- **[FastAPI](https://github.com/tiangolo/fastapi)** (94.5k GitHub stars): Modern, high-performance web framework for building APIs with Python. Based on standard Python type hints. Fast development speed, automatic API documentation.
-- **[Django](https://github.com/django/django)** (86.6k GitHub stars): The Web framework for perfectionists with deadlines. Full-featured framework with ORM, admin panel, and more. (Note: Django ORM is also listed in Databases section)
-- **[Flask](https://github.com/pallets/flask)** (71.1k GitHub stars): The Python micro framework for building web applications. Very popular for APIs and web apps. Minimal and flexible.
-- **[Bottle](https://github.com/bottlepy/bottle)**: Lightweight web framework. Single-file framework, minimal dependencies.
-- **[Tornado](https://github.com/tornadoweb/tornado)**: Web framework and asynchronous networking library. Handles long-polling and WebSockets.
-- **[Sanic](https://github.com/sanic-org/sanic)**: Async web framework. Built for speed, supports async/await.
-
-### Ultra-Lightweight (Minimal Dependencies)
-- **[Gradio](https://github.com/gradio-app/gradio)** (41.4k GitHub stars): Very lightweight, perfect for ML demos. Auto-generates UI from function signatures. Minimal code required.
-- **[NiceGUI](https://github.com/zauberzeug/nicegui)** (15.1k GitHub stars): Lightweight web UI framework. Simple API, minimal dependencies. Good for dashboards and tools.
-- **[JustPy](https://github.com/justpy-org/justpy)** (1.3k GitHub stars): Simple, lightweight web framework. Write Python, get web apps. No HTML/JS knowledge needed.
-- **[Solara](https://github.com/widgetti/solara)** (2.2k GitHub stars): React-like framework for Python. Lightweight and fast. Good for interactive data apps.
-- **[Reflex](https://github.com/reflex-dev/reflex)** (22.5k GitHub stars): Modern web framework. Lightweight, fast hot-reload. Good for full-stack apps.
-
-### Lightweight (Popular & Easy)
-- **[Streamlit](https://github.com/streamlit/streamlit)** (43.2k GitHub stars): Very popular, simple API. Great for data apps and dashboards. Minimal code to get started.
-- **[Panel](https://github.com/holoviz/panel)** (5.6k GitHub stars): Lightweight dashboarding. Works with many visualization libraries. Part of HoloViz ecosystem.
-- **[Voila](https://github.com/voila-dashboards/voila)** (5.7k GitHub stars): Turn Jupyter notebooks into standalone web apps. Very lightweight wrapper.
-
-### Medium Weight (More Features)
-- **[Dash](https://github.com/plotly/dash)** (24.4k GitHub stars): Plotly's framework. More control than Streamlit, but still relatively lightweight. Good for complex dashboards.
-- **[Shiny for Python](https://github.com/posit-dev/py-shiny)** (1.7k GitHub stars): R Shiny ported to Python. More features, slightly heavier. Good for interactive apps.
-
-### Desktop GUI (Lightweight Options)
-- **Tkinter**: Built into Python. Ultra-lightweight desktop GUI. Simple but functional. (Built-in, no separate repo)
-- **PyQt/PySide**: More features than Tkinter, but still relatively lightweight. Professional desktop apps.
-- **[Flet](https://github.com/flet-dev/flet)** (15.4k GitHub stars): Build cross-platform apps (desktop, web, mobile) with Python. Lightweight Flutter wrapper.
-- **[CustomTkinter](https://github.com/TomSchimansky/CustomTkinter)** (13.1k GitHub stars): Modern-looking Tkinter. Lightweight wrapper with better styling.
-
-### Terminal UI (Ultra-Lightweight)
-- **[Rich](https://github.com/Textualize/rich)** (55.2k GitHub stars): Beautiful terminal output and progress bars. Very lightweight.
-- **[Textual](https://github.com/Textualize/textual)** (33.8k GitHub stars): Terminal UI framework. Build interactive terminal apps. Lightweight.
-- **[Click](https://github.com/pallets/click)** (17.1k GitHub stars): Command-line interface creation. Minimal dependencies.
-- **[cursor](https://github.com/lethargilistic/cursor)**: Terminal cursor control library. Hide or show the terminal cursor. Works on Linux and Windows.
-
-
 ## Agents
 
 - **[Smolagents](https://github.com/huggingface/smolagents)** (24.6k GitHub stars): Small language agents. By Hugging Face. Good for small tasks.
@@ -379,6 +213,13 @@ Curated list of python libraries for data, science, and data science.
 - **[AgentGPT](https://github.com/reworkd/AgentGPT)** (35.5k GitHub stars): Browser-based agent framework.
 - **OpenAI Assistants API**: OpenAI's native agent framework with function calling and tools.
 - **ReAct**: Reasoning and acting framework. Combines reasoning and acting in language models.
+
+### AI CLI Assistants
+- **[Claude Code](https://github.com/anthropics/claude-code)** (61k+ GitHub stars): Agentic coding tool that runs in your terminal. Understands your codebase, helps with edits, explanations, and git workflows via the `claude` CLI.
+- **[aider](https://github.com/Aider-AI/aider)** (39.9k GitHub stars): AI pair‑programmer for your terminal. Chat‑based CLI that edits your codebase with strong git integration and support for many LLMs.
+- **[Open Interpreter](https://github.com/openinterpreter/open-interpreter)** (61.8k GitHub stars): Natural‑language interface to your computer in the terminal. Lets models run code, control tools, and work with files and browsers.
+- **[Warp](https://github.com/warpdotdev/Warp)** (25.7k GitHub stars): Modern GPU‑accelerated terminal with built‑in AI agents (Claude and others). Agentic development environment for shell workflows and code tasks.
+
 
 
 
@@ -434,46 +275,179 @@ Curated list of python libraries for data, science, and data science.
 
 
 
-## Misc
 
-### Data Compression & Performance
-- **Blosc**: Speed-up communication between disk and memory, or memory and cpu by compressing data blocks. May use LZ4, Snappy ZFP, ZSTD, or Blosc2 under the hood.
-- **Bodo.ai**: High-performance data processing platform.
+## Visualization
 
-### Web Scraping & HTTP
-- **[requests](https://github.com/psf/requests)** (53.7k GitHub stars): Simple, elegant HTTP library for Python. Most popular Python HTTP library.
-- **[aiohttp](https://github.com/aio-libs/aiohttp)**: Async HTTP client/server framework. For async web scraping and API clients.
-- **[beautifulsoup4](https://github.com/waylan/beautifulsoup4)**: Web scraping and HTML/XML parsing library. Extract data from HTML and XML files.
-- **[scrapy](https://github.com/scrapy/scrapy)** (59.5k GitHub stars): Fast, high-level web crawling and scraping framework. Production-ready web scraping.
+### General Visualization
+- **[Plotly Express](https://github.com/plotly/plotly.py)** (18.2k GitHub stars): High-level interface to Plotly. Easy-to-use plotting.
+- **[Plotly Graph Objects](https://github.com/plotly/plotly.py)** (18.2k GitHub stars): Low-level interface to Plotly. More control over plots.
+- **[Altair](https://github.com/vega/altair)** (10.1k GitHub stars): Declarative statistical visualization. Grammar of graphics.
+- **[Seaborn](https://github.com/mwaskom/seaborn)** (13.7k GitHub stars): Statistical data visualization. Built on matplotlib.
+- **[Matplotlib](https://github.com/matplotlib/matplotlib)** (22.3k GitHub stars): Most popular plotting library. Comprehensive 2D plotting.
+- **[Plotnine](https://github.com/has2k1/plotnine)** (4.5k GitHub stars): Grammar of graphics for Python. ggplot2 port.
+- **[Bokeh](https://github.com/bokeh/bokeh)** (19k GitHub stars): Interactive visualization library. Great for web applications.
+- **[Holoviews](https://github.com/holoviz/holoviews)** (2.9k GitHub stars): High-level visualization library. Declarative plotting.
+- **[Datashader](https://github.com/holoviz/datashader)** (3.2k GitHub stars): Rasterization pipeline for large datasets. Fast visualization of big data.
 
-### Testing
-- **[pytest](https://github.com/pytest-dev/pytest)** (13.5k GitHub stars): The pytest framework makes it easy to write small tests, yet scales to support complex functional testing. Most popular Python testing framework.
+### Specialized Visualization
+- **[missingno](https://github.com/ResidentMario/missingno)**: Visualize missing data patterns. Matrix plots, bar charts, and heatmaps for missing data.
+- **[yellowbrick](https://github.com/DistrictDataLabs/yellowbrick)**: ML visualization suite (also in Classic ML section). Visual analysis tools for ML.
+- **[wordcloud](https://github.com/amueller/word_cloud)** (10.5k GitHub stars): Word cloud generation library. Create word clouds from text.
+- **[Great Tables](https://github.com/posit-dev/great-tables)** (2.6k GitHub stars): Publication-quality display tables from Pandas or Polars DataFrames. Headers, footers, formatting, styling. Renders to HTML or images. By Posit.
+- **[mplfinance](https://github.com/matplotlib/mplfinance)**: Financial plotting library. Candlestick charts, technical indicators.
+- **[pygal](https://github.com/Kozea/pygal)**: SVG charting library. Create interactive SVG charts.
+- **[graphviz](https://github.com/xflr6/graphviz)**: Graph visualization library. Create and render graph structures.
 
-### AI CLI Assistants
-- **[Claude Code](https://github.com/anthropics/claude-code)** (61k+ GitHub stars): Agentic coding tool that runs in your terminal. Understands your codebase, helps with edits, explanations, and git workflows via the `claude` CLI.
-- **[aider](https://github.com/Aider-AI/aider)** (39.9k GitHub stars): AI pair‑programmer for your terminal. Chat‑based CLI that edits your codebase with strong git integration and support for many LLMs.
-- **[Open Interpreter](https://github.com/openinterpreter/open-interpreter)** (61.8k GitHub stars): Natural‑language interface to your computer in the terminal. Lets models run code, control tools, and work with files and browsers.
-- **[Warp](https://github.com/warpdotdev/Warp)** (25.7k GitHub stars): Modern GPU‑accelerated terminal with built‑in AI agents (Claude and others). Agentic development environment for shell workflows and code tasks.
+### Geographic Visualization
+- **[Geoplotlib](https://github.com/andrea-cuttone/geoplotlib)** (1k GitHub stars): Geographic data visualization toolkit.
+- **[Geoviews](https://github.com/holoviz/geoviews)** (624 GitHub stars): Interactive geospatial visualizations with HoloViews.
+- **[Cartopy](https://github.com/SciTools/cartopy)** (1.6k GitHub stars): Cartographic projections and mapping (matplotlib extension).
+- **[Folium](https://github.com/python-visualization/folium)** (7.3k GitHub stars): Interactive maps using Leaflet.js. Great for web maps.
 
-### Data Profiling & Quality
-- **ydata-profiling** / **pandas-profiling**: Data profiling libraries for generating comprehensive data reports. Automated EDA (Exploratory Data Analysis).
 
-### Data Version Control & MLOps
-- **[dvc](https://github.com/iterative/dvc)** (15.3k GitHub stars): Data Version Control - Data versioning and ML experiments. Git-like versioning for data and models.
-- **[kedro](https://github.com/kedro-org/kedro)** (10.7k GitHub stars): Toolbox for production-ready data science. Uses software engineering best practices to help create data engineering and data science pipelines that are reproducible, maintainable, and modular.
 
-### Project Management & Templates
-- **[cookiecutter](https://github.com/cookiecutter/cookiecutter)**: Project templates. Generate projects from cookiecutters (project templates).
-- **[poetry](https://github.com/python-poetry/poetry)**: Modern dependency management. Dependency resolution and packaging.
-- **[pipenv](https://github.com/pypa/pipenv)**: Dependency management. Combines pip and virtualenv.
-- **[conda](https://github.com/conda/conda)**: Package and environment management. Popular in data science for managing environments.
-- **[uv](https://github.com/astral-sh/uv)** (77.6k GitHub stars): Extremely fast Python package and project manager by Astral (creators of Ruff). Replaces tools like pip, pip-tools, pipx, poetry, pyenv, and virtualenv.
+## Algebra
 
-### Notebook Tools
-- **[jupyter-book](https://github.com/executablebooks/jupyter-book)**: Build books from notebooks. Create publication-quality books from Jupyter notebooks.
-- **[nbconvert](https://github.com/jupyter/nbconvert)**: Convert notebooks to various formats. Part of Jupyter ecosystem.
-- **[papermill](https://github.com/nteract/papermill)**: Parameterize and execute notebooks. Run notebooks with different parameters.
-- **[Quarto](https://github.com/quarto-dev/quarto-cli)** (5.1k GitHub stars): Scientific publishing system. Supports Jupyter notebooks, R Markdown, markdown. Reproducible research.
+### Core Numerical Computing
+- **[Numpy](https://github.com/numpy/numpy)** (31.3k GitHub stars): Numerical computing. Foundation for scientific Python.
+- **[Scipy](https://github.com/scipy/scipy)** (14.3k GitHub stars): Scientific computing. Built on NumPy, includes optimization, integration, interpolation, etc.
+- **[Sympy](https://github.com/sympy/sympy)** (14.3k GitHub stars): Symbolic computing. Computer algebra system.
+- **[mlx](https://github.com/ml-explore/mlx)** (23.5k GitHub stars): Apple's linear algebra. Optimized for Apple Silicon.
+- **[JAX](https://github.com/google/jax)** (28.9k GitHub stars): Automatic differentiation and numerical computing. NumPy-compatible with GPU/TPU support.
+- **[PyTorch](https://github.com/pytorch/pytorch)** (96.8k GitHub stars): Deep learning framework with tensor operations (also in Deep Learning section).
+
+### Performance & GPU Acceleration
+- **[CuPy](https://github.com/cupy/cupy)** (10.7k GitHub stars): NumPy-compatible GPU array library. NumPy for the GPU with nearly identical API. Runs on NVIDIA GPUs.
+- **[Numba](https://github.com/numba/numba)** (10.9k GitHub stars): JIT (Just-In-Time) compiler that translates a subset of Python and NumPy code into fast machine code using LLVM. NumPy-aware dynamic Python compiler.
+- **[Cython](https://github.com/cython/cython)**: C extensions for Python. Used for performance optimization. Compile Python-like code to C.
+- **[Theano](https://github.com/Theano/Theano)**: (Deprecated) Historical deep learning library. No longer maintained but was influential in the development of modern deep learning frameworks. 
+
+## DataBases
+
+### ORMs (Object-Relational Mappers)
+- **[SQLAlchemy](https://github.com/sqlalchemy/sqlalchemy)** (11.4k GitHub stars): Most popular Python ORM. Powerful, flexible, supports multiple databases. Core and ORM layers.
+- **[Django ORM](https://github.com/django/django)** (86.5k GitHub stars): Built into Django framework. Easy to use, migrations included. Great for Django projects.
+- **[Peewee](https://github.com/coleifer/peewee)** (11.9k GitHub stars): Lightweight ORM. Simple API, small footprint. Good for small to medium projects.
+- **[Tortoise ORM](https://github.com/tortoise/tortoise-orm)** (5.4k GitHub stars): Async ORM inspired by Django. Built for async/await. Supports PostgreSQL, MySQL, SQLite.
+- **[SQLModel](https://github.com/tiangolo/sqlmodel)** (17.5k GitHub stars): Modern ORM by FastAPI creator. Combines SQLAlchemy with Pydantic. Type-safe, auto-completion.
+- **[Databases](https://github.com/encode/databases)** (4k GitHub stars): Async database library. Works with SQLAlchemy Core. Supports async operations.
+- **[Pony ORM](https://github.com/ponyorm/pony)** (3.8k GitHub stars): ORM with Pythonic query syntax. Automatic query optimization. Good for complex queries.
+- **[SQLObject](https://github.com/sqlobject/sqlobject)**: Alternative ORM. Object-relational mapper with a different approach.
+- **Storm**: ORM for Python. Database abstraction layer.
+
+### Database Drivers & Adapters
+- **sqlite3**: Built-in SQLite database (Python standard library). No installation needed.
+- **Psycopg2/Psycopg3**: PostgreSQL adapter. Psycopg2 is mature, psycopg3 is modern async version.
+- **pg8000**: Pure Python PostgreSQL driver. No C dependencies.
+- **PyMySQL**: Pure Python MySQL client. No C dependencies. Good for compatibility.
+- **mysql-connector-python**: Official MySQL connector. Full MySQL protocol support.
+- **aiomysql**: Async MySQL driver. Built on PyMySQL. For async applications.
+- **asyncpg**: Fast async PostgreSQL driver. High performance, no ORM overhead.
+- **aiosqlite**: Async SQLite driver. For async SQLite operations.
+- **pymongo**: Official MongoDB driver. Full MongoDB feature support.
+- **motor**: Async MongoDB driver. Built on PyMongo. For async applications.
+- **redis-py**: Redis client library. Supports all Redis commands.
+- **aioredis**: Async Redis client. For async Redis operations.
+- **cx_Oracle**: Oracle database adapter. Official Oracle driver.
+- **pyodbc**: ODBC database connector. Works with SQL Server, Access, and other ODBC databases.
+- **pymssql**: Microsoft SQL Server driver. Pure Python implementation.
+
+### Query Builders & SQL Tools
+- **[Records](https://github.com/kennethreitz/records)** (7.2k GitHub stars): Simple SQL query interface. Returns results as named tuples or dictionaries.
+- **[Dataset](https://github.com/pudo/dataset)**: Simple database abstraction. Works with SQLite, PostgreSQL, MySQL. Great for data science.
+- **[Pypika](https://github.com/kayak/pypika)** (2.9k GitHub stars): SQL query builder. Write SQL queries in Python. Database agnostic.
+- **[SQLGlot](https://github.com/tobymao/sqlglot)** (8.8k GitHub stars): SQL parser, transpiler, and optimizer. Parse and transform SQL across dialects.
+
+### Connection Pooling & Management
+- **DBUtils**: Database connection pooling utilities. Works with various database drivers.
+- **SQLAlchemy Pool**: Built-in connection pooling in SQLAlchemy. Efficient connection management.
+
+### Migration Tools
+- **[Alembic](https://github.com/sqlalchemy/alembic)** (3.9k GitHub stars): Database migration tool for SQLAlchemy. Version control for database schemas.
+- **[Django Migrations](https://github.com/django/django)**: Built-in migration system for Django. Automatic migration generation.
+- **[yoyo-migrations](https://github.com/ollyc/yoyo)**: Database migration tool. Database agnostic, simple to use.
+
+### Data Integration & ETL
+- **[SQLAlchemy](https://github.com/sqlalchemy/sqlalchemy)**: Can be used for ETL operations with its Core layer.
+- **[Pandas](https://github.com/pandas-dev/pandas)**: Read/write to databases via SQLAlchemy or direct drivers. Great for data analysis workflows.
+- **[Polars](https://github.com/pola-rs/polars)**: Fast DataFrame library with database integration. Can query databases directly.
+- **[DuckDB](https://github.com/duckdb/duckdb)**: In-process analytical database. Can query Parquet, CSV, and other formats. SQL interface.
+- **[ConnectorX](https://github.com/sfu-db/connector-x)** (2.5k GitHub stars): Fast library for loading data from databases to DataFrames. Supports PostgreSQL, MySQL, SQLite, SQL Server, Oracle. Works with Pandas, PyArrow, Modin, Dask, Polars.
+- **[dbc](https://github.com/prefix-dev/dbc)** (79 GitHub stars): Command-line tool for installing and managing ADBC (Apache Arrow Database Connectivity) drivers. Works on macOS, Linux, and Windows. Supports reproducible project environments with driver lists and lockfiles.
+- **[Airflow](https://github.com/apache/airflow)** (43.9k GitHub stars): Apache Airflow - platform to programmatically author, schedule, and monitor workflows. Industry standard for workflow orchestration.
+- **[Prefect](https://github.com/PrefectHQ/prefect)** (21.4k GitHub stars): Modern workflow orchestration framework for building resilient data pipelines. Python-first development with dynamic workflows.
+- **[Luigi](https://github.com/spotify/luigi)** (18.6k GitHub stars): Python module for building complex pipelines of batch jobs. Handles dependency resolution, workflow management, visualization. Built-in Hadoop support.
+- **[Bonobo](https://github.com/python-bonobo/bonobo)**: ETL framework for Python. Simple, lightweight, and extensible.
+
+### NoSQL & Document Databases
+- **[pymongo](https://github.com/mongodb/mongo-python-driver)**: MongoDB driver (see Database Drivers).
+- **[motor](https://github.com/mongodb/motor)**: Async MongoDB driver (see Database Drivers).
+- **[cassandra-driver](https://github.com/datastax/python-driver)** (1.4k GitHub stars): Apache Cassandra driver. For distributed NoSQL databases.
+- **[elasticsearch-py](https://github.com/elastic/elasticsearch-py)** (4.4k GitHub stars): Elasticsearch client. For search and analytics.
+- **[neo4j](https://github.com/neo4j/neo4j-python-driver)** (1k GitHub stars): Neo4j graph database driver. For graph databases.
+
+### Time-Series Databases
+- **[influxdb-client](https://github.com/influxdata/influxdb-client-python)** (788 GitHub stars): InfluxDB client library. For time-series data.
+- **[timescaledb](https://github.com/timescale/timescaledb)** (21.5k GitHub stars): PostgreSQL extension for time-series. Works with standard PostgreSQL drivers.
+
+### Database Testing & Fixtures
+- **[pytest-postgresql](https://github.com/ClearcodeHQ/pytest-postgresql)** (505 GitHub stars): PostgreSQL fixtures for pytest. Isolated test databases.
+- **[pytest-mysql](https://github.com/ClearcodeHQ/pytest-mysql)** (56 GitHub stars): MySQL fixtures for pytest.
+- **[factory-boy](https://github.com/FactoryBoy/factory_boy)** (3.8k GitHub stars): Test data generation. Works with ORMs for creating test fixtures.
+
+
+## Data Classes and Validation
+
+- **[Pandera](https://github.com/unionai/pandera)** (4.2k GitHub stars): Data validation and testing.
+- **[Pydantic](https://github.com/pydantic/pydantic)** (26.5k GitHub stars): Data validation and parsing.
+- **[Hypothesis](https://github.com/HypothesisWorks/hypothesis)** (8.4k GitHub stars): Property-based testing.
+- **[Marshmallow](https://github.com/marshmallow-code/marshmallow)** (7.2k GitHub stars): Lightweight library for converting complex objects to and from simple Python datatypes. Object serialization/deserialization.
+- **[attrs](https://github.com/python-attrs/attrs)** (5.1k GitHub stars): Classes without boilerplate. The base attrs library that many validation tools build upon.
+- **[msgspec](https://github.com/jcrist/msgspec)**: Fast serialization and validation library with built-in support for JSON, MessagePack, YAML, and TOML.
+- **[Cerberus](https://github.com/pyeve/cerberus)**: Lightweight data validation library.
+- **[Voluptuous](https://github.com/alecthomas/voluptuous)**: Data validation library with a focus on clarity and simplicity.
+- **dataclasses**: Built-in (Python 3.7+). Classes with automatically generated special methods. No separate repo.
+- **TypedDict**: Built-in (Python 3.8+). Type hints for dictionaries with a fixed set of keys. No separate repo.
+
+
+
+## FrontEnds
+
+### Web Frameworks (APIs & Full-Stack)
+- **[FastAPI](https://github.com/tiangolo/fastapi)** (94.5k GitHub stars): Modern, high-performance web framework for building APIs with Python. Based on standard Python type hints. Fast development speed, automatic API documentation.
+- **[Django](https://github.com/django/django)** (86.6k GitHub stars): The Web framework for perfectionists with deadlines. Full-featured framework with ORM, admin panel, and more. (Note: Django ORM is also listed in Databases section)
+- **[Flask](https://github.com/pallets/flask)** (71.1k GitHub stars): The Python micro framework for building web applications. Very popular for APIs and web apps. Minimal and flexible.
+- **[Bottle](https://github.com/bottlepy/bottle)**: Lightweight web framework. Single-file framework, minimal dependencies.
+- **[Tornado](https://github.com/tornadoweb/tornado)**: Web framework and asynchronous networking library. Handles long-polling and WebSockets.
+- **[Sanic](https://github.com/sanic-org/sanic)**: Async web framework. Built for speed, supports async/await.
+
+### Ultra-Lightweight (Minimal Dependencies)
+- **[Gradio](https://github.com/gradio-app/gradio)** (41.4k GitHub stars): Very lightweight, perfect for ML demos. Auto-generates UI from function signatures. Minimal code required.
+- **[NiceGUI](https://github.com/zauberzeug/nicegui)** (15.1k GitHub stars): Lightweight web UI framework. Simple API, minimal dependencies. Good for dashboards and tools.
+- **[JustPy](https://github.com/justpy-org/justpy)** (1.3k GitHub stars): Simple, lightweight web framework. Write Python, get web apps. No HTML/JS knowledge needed.
+- **[Solara](https://github.com/widgetti/solara)** (2.2k GitHub stars): React-like framework for Python. Lightweight and fast. Good for interactive data apps.
+- **[Reflex](https://github.com/reflex-dev/reflex)** (22.5k GitHub stars): Modern web framework. Lightweight, fast hot-reload. Good for full-stack apps.
+
+### Lightweight (Popular & Easy)
+- **[Streamlit](https://github.com/streamlit/streamlit)** (43.2k GitHub stars): Very popular, simple API. Great for data apps and dashboards. Minimal code to get started.
+- **[Panel](https://github.com/holoviz/panel)** (5.6k GitHub stars): Lightweight dashboarding. Works with many visualization libraries. Part of HoloViz ecosystem.
+- **[Voila](https://github.com/voila-dashboards/voila)** (5.7k GitHub stars): Turn Jupyter notebooks into standalone web apps. Very lightweight wrapper.
+
+### Medium Weight (More Features)
+- **[Dash](https://github.com/plotly/dash)** (24.4k GitHub stars): Plotly's framework. More control than Streamlit, but still relatively lightweight. Good for complex dashboards.
+- **[Shiny for Python](https://github.com/posit-dev/py-shiny)** (1.7k GitHub stars): R Shiny ported to Python. More features, slightly heavier. Good for interactive apps.
+
+### Desktop GUI (Lightweight Options)
+- **Tkinter**: Built into Python. Ultra-lightweight desktop GUI. Simple but functional. (Built-in, no separate repo)
+- **PyQt/PySide**: More features than Tkinter, but still relatively lightweight. Professional desktop apps.
+- **[Flet](https://github.com/flet-dev/flet)** (15.4k GitHub stars): Build cross-platform apps (desktop, web, mobile) with Python. Lightweight Flutter wrapper.
+- **[CustomTkinter](https://github.com/TomSchimansky/CustomTkinter)** (13.1k GitHub stars): Modern-looking Tkinter. Lightweight wrapper with better styling.
+
+### Terminal UI (Ultra-Lightweight)
+- **[Rich](https://github.com/Textualize/rich)** (55.2k GitHub stars): Beautiful terminal output and progress bars. Very lightweight.
+- **[Textual](https://github.com/Textualize/textual)** (33.8k GitHub stars): Terminal UI framework. Build interactive terminal apps. Lightweight.
+- **[Click](https://github.com/pallets/click)** (17.1k GitHub stars): Command-line interface creation. Minimal dependencies.
+- **[cursor](https://github.com/lethargilistic/cursor)**: Terminal cursor control library. Hide or show the terminal cursor. Works on Linux and Windows.
 
 ## Linters
 
@@ -489,3 +463,33 @@ Curated list of python libraries for data, science, and data science.
 ### Security & Docs
 - **[Bandit](https://github.com/PyCQA/bandit)** (7.6k GitHub stars): Security linter for Python. Finds common security issues in code.
 - **[pydocstyle](https://github.com/PyCQA/pydocstyle)** (1.1k GitHub stars): Docstring style checker. Ensures consistency with PEP 257 and related conventions.
+
+## Misc
+
+### Web Scraping & HTTP
+- **[requests](https://github.com/psf/requests)** (53.7k GitHub stars): Simple, elegant HTTP library for Python. Most popular Python HTTP library.
+- **[aiohttp](https://github.com/aio-libs/aiohttp)**: Async HTTP client/server framework. For async web scraping and API clients.
+- **[beautifulsoup4](https://github.com/waylan/beautifulsoup4)**: Web scraping and HTML/XML parsing library. Extract data from HTML and XML files.
+- **[scrapy](https://github.com/scrapy/scrapy)** (59.5k GitHub stars): Fast, high-level web crawling and scraping framework. Production-ready web scraping.
+
+### Testing
+- **[pytest](https://github.com/pytest-dev/pytest)** (13.5k GitHub stars): The pytest framework makes it easy to write small tests, yet scales to support complex functional testing. Most popular Python testing framework.
+
+### Data Profiling & Quality
+- **ydata-profiling** / **pandas-profiling**: Data profiling libraries for generating comprehensive data reports. Automated EDA (Exploratory Data Analysis).
+
+### Data Version Control & MLOps
+- **[dvc](https://github.com/iterative/dvc)** (15.3k GitHub stars): Data Version Control - Data versioning and ML experiments. Git-like versioning for data and models.
+- **[kedro](https://github.com/kedro-org/kedro)** (10.7k GitHub stars): Toolbox for production-ready data science. Uses software engineering best practices to help create data engineering and data science pipelines that are reproducible, maintainable, and modular.
+
+### Project Management & Templates
+- **[cookiecutter](https://github.com/cookiecutter/cookiecutter)**: Project templates. Generate projects from cookiecutters (project templates).
+- **[poetry](https://github.com/python-poetry/poetry)**: Modern dependency management. Dependency resolution and packaging.
+- **[pipenv](https://github.com/pypa/pipenv)**: Dependency management. Combines pip and virtualenv.
+- **[conda](https://github.com/conda/conda)**: Package and environment management. Popular in data science for managing environments.
+- **[uv](https://github.com/astral-sh/uv)** (77.6k GitHub stars): Extremely fast Python package and project manager by Astral (creators of Ruff). Replaces tools like pip, pip-tools, pipx, poetry, pyenv, and virtualenv.
+
+
+### Data Compression & Performance
+- **Blosc**: Speed-up communication between disk and memory, or memory and cpu by compressing data blocks. May use LZ4, Snappy ZFP, ZSTD, or Blosc2 under the hood.
+- **Bodo.ai**: High-performance data processing platform.
