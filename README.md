@@ -1,5 +1,5 @@
 # python-libraries-for-ds
-Curated list of python libraries which I find useful for data science
+Curated list of python libraries for data, science, and data science. 
 
 # Data Science Libraries
 
