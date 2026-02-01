@@ -196,6 +196,24 @@ Curated list of python libraries for data, science, and data science.
 - **[Keras Tuner](https://github.com/keras-team/keras-tuner)**: Hyperparameter tuning for Keras. Automated hyperparameter search.
 - **[Ray Tune](https://github.com/ray-project/ray)**: Hyperparameter tuning (part of Ray, see Distributed & Parallel Processing). Scalable hyperparameter search.
 
+## Reinforcement Learning
+
+### Environments
+- **[Gymnasium](https://github.com/Farama-Foundation/Gymnasium)** (4.2k GitHub stars): API standard for single-agent RL environments. Successor to OpenAI Gym; maintained by Farama Foundation. Classic Control, Atari, MuJoCo, Box2D, Toy Text. Common interface for training libraries.
+- **[PettingZoo](https://github.com/Farama-Foundation/PettingZoo)** (2.2k GitHub stars): Multi-agent RL environments. Same API style as Gymnasium; multi-agent games and benchmarks. By Farama Foundation.
+- **[MinAtar](https://github.com/kenjyoung/MinAtar)** (500+ GitHub stars): Minimalist Atari-like environments. Fast, lightweight; good for prototyping and research.
+
+### Core Algorithm Libraries
+- **[Stable-Baselines3](https://github.com/DLR-RM/stable-baselines3)** (12.6k GitHub stars): Reliable implementations of deep RL algorithms (PPO, SAC, A2C, DQN, etc.). PyTorch-based; works with Gymnasium. Benchmarked, well-documented.
+- **[RLlib](https://github.com/ray-project/ray)** (34.6k GitHub stars): Distributed RL library (part of Ray). Scalable training; many algorithms, multi-agent, offline RL. Uses Gymnasium/PettingZoo for environments.
+- **[CleanRL](https://github.com/CleanRL/CleanRL)** (5.2k GitHub stars): Clean, single-file implementations of deep RL algorithms. Research-friendly; minimal dependencies, easy to read and modify. TensorBoard, W&B; supports Gymnasium.
+- **[Dopamine](https://github.com/google/dopamine)** (10.5k GitHub stars): Research framework for fast prototyping of RL algorithms. By Google. Focus on reproducibility and ablation; JAX-based (Dopamine 2.x).
+- **[SB3-Contrib](https://github.com/Stable-Baselines-Team/stable-baselines3-contrib)** (688 GitHub stars): Extra algorithms and features for Stable-Baselines3. Experimental (TQC, QRDQN, etc.).
+
+### Transformer & LLM Reinforcement Learning (RLHF, etc.)
+- **[TRL](https://github.com/huggingface/trl)** (10.5k GitHub stars): Transformer Reinforcement Learning. Train and align LLMs with RL: SFT, DPO, PPO, GRPO, reward modeling, KTO, ORPO. Integrates with Hugging Face Transformers and PEFT.
+- **[OpenRLHF](https://github.com/OpenRLHF/OpenRLHF)** (6k+ GitHub stars): Open-source RLHF stack. Train reward models and policy with PPO; supports LLaMA, ChatGLM, and others.
+- **[axolotl](https://github.com/OpenAccess-AI-Collective/axolotl)** (8k+ GitHub stars): LLM fine-tuning and RLHF. SFT, LoRA, DPO, and related methods; YAML config, multi-framework support.
 
 ## Agents
 
@@ -389,6 +407,28 @@ Curated list of python libraries for data, science, and data science.
 ### Time-Series Databases
 - **[influxdb-client](https://github.com/influxdata/influxdb-client-python)** (788 GitHub stars): InfluxDB client library. For time-series data.
 - **[timescaledb](https://github.com/timescale/timescaledb)** (21.5k GitHub stars): PostgreSQL extension for time-series. Works with standard PostgreSQL drivers.
+
+### Vector Databases
+
+#### In-process (embedded)
+- **[FAISS](https://github.com/facebookresearch/faiss)** (32.5k GitHub stars): Facebook AI Similarity Search. In-process library for efficient similarity search and clustering of dense vectors. CPU and GPU, many index types (flat, IVF, HNSW). No server; use from Python to build and query indices in memory or on disk.
+- **[DuckDB](https://github.com/duckdb/duckdb)** (35.6k GitHub stars): In-process analytical DB with vector extension. SQL interface; store and query embeddings alongside tabular data (see In-Memory Analytical Databases).
+- **[LanceDB](https://github.com/lancedb/lancedb)** (5.2k GitHub stars): Embedded vector database. Runs in-process like SQLite; no server. Built on Lance (columnar format). Vector search, metadata filtering, multimodal. Good for RAG and LLM apps.
+- **[Chroma](https://github.com/chroma-core/chroma)** (14.2k GitHub stars): Vector database with embedded mode. Can run in-process (no server) or as a client to a Chroma server. Persistent or in-memory.
+- **[sqlite-vec](https://github.com/asg017/sqlite-vec)**: SQLite extension for vector similarity search. In-process, single file. Good for small to medium vector workloads.
+
+#### Server, managed, or client–server
+- **[Milvus](https://github.com/milvus-io/milvus)** (30.2k GitHub stars): Open-source vector database. Self-hosted or Zilliz Cloud. Multiple index types (HNSW, IVF, etc.), scalable.
+- **[Qdrant](https://github.com/qdrant/qdrant)** (17.2k GitHub stars): Vector database and similarity search engine. Self-hosted or Qdrant Cloud. HNSW, metadata filtering, disk-backed. Python client.
+- **[Weaviate](https://github.com/weaviate/weaviate)** (11.2k GitHub stars): Vector database with GraphQL and REST. Self-hosted or Weaviate Cloud. Hybrid search, modules for embeddings and ML.
+- **[pgvector](https://github.com/pgvector/pgvector)** (8.5k GitHub stars): PostgreSQL extension for vector similarity search. Use with standard PostgreSQL drivers (e.g. psycopg2). Server-based.
+- **[Pinecone](https://www.pinecone.io/)**: Managed vector database (cloud only). Serverless or pod-based. Python client; no self-hosting.
+- **[Chroma](https://github.com/chroma-core/chroma)** (server mode): Run Chroma as a separate server; connect via client (see In-process for embedded use).
+
+#### Populating vector databases
+- **Embeddings**: Generate vectors before or during ingestion. **[sentence-transformers](https://github.com/UKPLab/sentence-transformers)** (16.5k GitHub stars): Local embedding models (e.g. all-MiniLM). **[openai](https://github.com/openai/openai-python)** / **[tiktoken](https://github.com/openai/tiktoken)**: OpenAI embeddings and tokenization. **[Hugging Face Transformers](https://github.com/huggingface/transformers)** (see Deep Learning): General embedding models.
+- **Document loaders & chunking**: **[LlamaIndex](https://github.com/run-llama/llama_index)** (46.5k GitHub stars): Document loaders, chunking, and ingestion pipelines for RAG; supports many vector stores (in-process and server). **[LangChain](https://github.com/langchain-ai/langchain)**: Document loaders, text splitters, and vector-store integrations (Chroma, Qdrant, Pinecone, etc.).
+- **Batch ingestion**: In-process DBs (LanceDB, Chroma embedded, DuckDB) are populated by adding records from your process. Server DBs (Qdrant, Weaviate, Pinecone, pgvector) are populated via their Python clients; use batching APIs for large datasets. **[ConnectorX](https://github.com/sfu-db/connector-x)** (see Data Integration): Load from relational DBs into DataFrames; then embed and write to your vector DB of choice.
 
 ### Database Testing & Fixtures
 - **[pytest-postgresql](https://github.com/ClearcodeHQ/pytest-postgresql)** (505 GitHub stars): PostgreSQL fixtures for pytest. Isolated test databases.
