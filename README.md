@@ -166,8 +166,11 @@ Curated list of python libraries for data, science, and data science.
 ### Model Interpretability
 - **[shap](https://github.com/slundberg/shap)** (25k GitHub stars): SHAP (SHapley Additive exPlanations) values for model interpretation. Game theoretic approach to explain the output of any machine learning model.
 - **[lime](https://github.com/marcotcr/lime)** (12.1k GitHub stars): LIME (Local Interpretable Model-agnostic Explanations). Explaining the predictions of any machine learning classifier.
+- **[knockpy](https://amspector100.github.io/knockpy/)**: Implements the knockoff filter framework for feature selection. Akin to permutation importance, only that it accounts for the correlation structure of the features.
 - **[eli5](https://github.com/TeamHG-Memex/eli5)** (324 GitHub stars): Library for debugging and inspecting machine learning classifiers and explaining predictions.
 - **[yellowbrick](https://github.com/DistrictDataLabs/yellowbrick)**: ML visualization suite. Visual analysis and diagnostic tools for feature selection, model selection, and parameter tuning.
+
+
 
 ## Deep Learning
 
@@ -204,16 +207,16 @@ Curated list of python libraries for data, science, and data science.
 - **[MinAtar](https://github.com/kenjyoung/MinAtar)** (500+ GitHub stars): Minimalist Atari-like environments. Fast, lightweight; good for prototyping and research.
 
 ### Core Algorithm Libraries
-- **[Stable-Baselines3](https://github.com/DLR-RM/stable-baselines3)** (12.6k GitHub stars): Reliable implementations of deep RL algorithms (PPO, SAC, A2C, DQN, etc.). PyTorch-based; works with Gymnasium. Benchmarked, well-documented.
 - **[RLlib](https://github.com/ray-project/ray)** (34.6k GitHub stars): Distributed RL library (part of Ray). Scalable training; many algorithms, multi-agent, offline RL. Uses Gymnasium/PettingZoo for environments.
+- **[Stable-Baselines3](https://github.com/DLR-RM/stable-baselines3)** (12.6k GitHub stars): Reliable implementations of deep RL algorithms (PPO, SAC, A2C, DQN, etc.). PyTorch-based; works with Gymnasium. Benchmarked, well-documented.
 - **[CleanRL](https://github.com/CleanRL/CleanRL)** (5.2k GitHub stars): Clean, single-file implementations of deep RL algorithms. Research-friendly; minimal dependencies, easy to read and modify. TensorBoard, W&B; supports Gymnasium.
 - **[Dopamine](https://github.com/google/dopamine)** (10.5k GitHub stars): Research framework for fast prototyping of RL algorithms. By Google. Focus on reproducibility and ablation; JAX-based (Dopamine 2.x).
 - **[SB3-Contrib](https://github.com/Stable-Baselines-Team/stable-baselines3-contrib)** (688 GitHub stars): Extra algorithms and features for Stable-Baselines3. Experimental (TQC, QRDQN, etc.).
 
 ### Transformer & LLM Reinforcement Learning (RLHF, etc.)
 - **[TRL](https://github.com/huggingface/trl)** (10.5k GitHub stars): Transformer Reinforcement Learning. Train and align LLMs with RL: SFT, DPO, PPO, GRPO, reward modeling, KTO, ORPO. Integrates with Hugging Face Transformers and PEFT.
-- **[OpenRLHF](https://github.com/OpenRLHF/OpenRLHF)** (6k+ GitHub stars): Open-source RLHF stack. Train reward models and policy with PPO; supports LLaMA, ChatGLM, and others.
 - **[axolotl](https://github.com/OpenAccess-AI-Collective/axolotl)** (8k+ GitHub stars): LLM fine-tuning and RLHF. SFT, LoRA, DPO, and related methods; YAML config, multi-framework support.
+- **[OpenRLHF](https://github.com/OpenRLHF/OpenRLHF)** (6k+ GitHub stars): Open-source RLHF stack. Train reward models and policy with PPO; supports LLaMA, ChatGLM, and others.
 
 ## Agents
 
