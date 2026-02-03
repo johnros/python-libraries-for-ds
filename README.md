@@ -19,14 +19,14 @@ Curated list of python libraries for data, science, and data science.
 ### Notebook Environments
 - **[Jupyter Notebook](https://github.com/jupyter/notebook)** (12.9k GitHub stars): Classic notebook interface. Cell-based execution, markdown support, inline plots. Most popular Python notebook.
 - **[JupyterLab](https://github.com/jupyterlab/jupyterlab)** (15.1k GitHub stars): Next-generation web-based interface for Jupyter. More features than classic Jupyter, extensible. Built on Jupyter.
-- **[marimo](https://github.com/marimo-team/marimo)** (18.5k GitHub stars): Reactive Python notebook. Cells automatically update when dependencies change. No hidden state, reproducible. Modern alternative to Jupyter.
+- **[marimo](https://github.com/marimo-team/marimo)** (18.8k GitHub stars): Reactive Python notebook. Cells automatically update when dependencies change. No hidden state, reproducible. Modern alternative to Jupyter.
 - **[IPython](https://github.com/ipython/ipython)** (16.7k GitHub stars): Enhanced interactive Python shell. Tab completion, magic commands, rich display. Powers Jupyter notebooks.
 - **Google Colab**: Free cloud-based Jupyter notebook environment. GPU/TPU access, collaborative editing. No installation needed.
 - **Kaggle Notebooks**: Cloud-based notebook environment. Integrated with Kaggle datasets and competitions. Free GPU access.
 
 ### IDE-Based Interactive Environments
-- **[VS Code with Python](https://github.com/microsoft/vscode)** (4.5k GitHub stars): VS Code with Python extension. Interactive window, notebook support, debugging. Popular for data science.
-- **[Positron](https://github.com/posit-dev/positron)**: Data science IDE by Posit. Built on Code OSS. Python and R, variable explorer, multi-session console, notebooks, plot pane, database pane. VS Code–compatible extensions.
+- **[VS Code with Python](https://github.com/microsoft/vscode)** (181.2k GitHub stars): VS Code with Python extension. Interactive window, notebook support, debugging. Popular for data science.
+- **[Positron](https://github.com/posit-dev/positron)** (3.9k GitHub stars): Data science IDE by Posit. Built on Code OSS. Python and R, variable explorer, multi-session console, notebooks, plot pane, database pane. VS Code–compatible extensions.
 - **PyCharm Professional**: Full-featured IDE with scientific tools. Interactive console, notebook support, data viewer. JetBrains IDE.
 - **[Spyder](https://github.com/spyder-ide/spyder)** (9.1k GitHub stars): Scientific Python IDE. Variable explorer, IPython console, debugging tools. Designed for data science.
 - **[RStudio (with reticulate)](https://github.com/rstudio/reticulate)** (1.7k GitHub stars): RStudio with Python support via reticulate. Good for R/Python hybrid workflows.
@@ -41,43 +41,43 @@ Curated list of python libraries for data, science, and data science.
 - **[Noteable](https://github.com/noteable-io)** (noteable-io organization): Collaborative notebook platform. Cloud-based notebook environment.
 - **[Saturn Cloud](https://github.com/saturncloud)** (saturncloud organization): Cloud-based data science platform. Jupyter notebooks with GPU/CPU resources.
 - **Paperspace Gradient**: Cloud notebooks with GPU. Machine learning development environment.
-- **[CoCalc](https://github.com/sagemathinc/cocalc)**: Collaborative computational environment. Real-time collaborative editing.
-- **[nteract](https://github.com/nteract/nteract)**: Desktop notebook application. Native desktop app for Jupyter notebooks.
+- **[CoCalc](https://github.com/sagemathinc/cocalc)** (1.3k GitHub stars): Collaborative computational environment. Real-time collaborative editing.
+- **[nteract](https://github.com/nteract/nteract)** (6.3k GitHub stars): Desktop notebook application. Native desktop app for Jupyter notebooks.
 
 ### Notebook Tools
-- **[jupyter-book](https://github.com/executablebooks/jupyter-book)**: Build books from notebooks. Create publication-quality books from Jupyter notebooks.
-- **[nbconvert](https://github.com/jupyter/nbconvert)**: Convert notebooks to various formats. Part of Jupyter ecosystem.
-- **[papermill](https://github.com/nteract/papermill)**: Parameterize and execute notebooks. Run notebooks with different parameters.
+- **[jupyter-book](https://github.com/executablebooks/jupyter-book)** (4.2k GitHub stars): Build books from notebooks. Create publication-quality books from Jupyter notebooks.
+- **[nbconvert](https://github.com/jupyter/nbconvert)** (1.9k GitHub stars): Convert notebooks to various formats. Part of Jupyter ecosystem.
+- **[papermill](https://github.com/nteract/papermill)** (6.3k GitHub stars): Parameterize and execute notebooks. Run notebooks with different parameters.
 - **[Quarto](https://github.com/quarto-dev/quarto-cli)** (5.1k GitHub stars): Scientific publishing system. Supports Jupyter notebooks, R Markdown, markdown. Reproducible research.
 
 ## Data Frames
 
 ### Core DataFrame Libraries
 - **[Pandas](https://github.com/pandas-dev/pandas)** (47.7k GitHub stars): Most popular DataFrame library. Rich API, extensive functionality. Great for data analysis and manipulation.
-- **[Polars](https://github.com/pola-rs/polars)** (37.1k GitHub stars): Fast DataFrame library written in Rust. Lazy evaluation, parallel processing. Much faster than Pandas for large datasets.
-- **[Datatable](https://github.com/h2oai/datatable)** (3.8k GitHub stars): High-performance data manipulation. Fast operations on large datasets. R data.table port to Python.
+- **[Polars](https://github.com/pola-rs/polars)** (37.3k GitHub stars): Fast DataFrame library written in Rust. Lazy evaluation, parallel processing. Much faster than Pandas for large datasets.
+- **[Datatable](https://github.com/h2oai/datatable)** (1.9k GitHub stars): High-performance data manipulation. Fast operations on large datasets. R data.table port to Python.
 
 ### Distributed & Parallel Processing
-- **[Dask](https://github.com/dask/dask)** (15.5k GitHub stars): Parallel computing library. Scales Pandas operations to multiple cores/clusters. Lazy evaluation.
-- **[Modin](https://github.com/modin-project/modin)** (11.8k GitHub stars): Drop-in Pandas replacement. Automatically parallelizes operations. Uses Ray or Dask backend.
-- **[Ray](https://github.com/ray-project/ray)** (34.6k GitHub stars): Distributed computing framework. Can be used with Modin for parallel DataFrame operations.
-- **[Vaex](https://github.com/vaexio/vaex)** (7.7k GitHub stars): Out-of-core DataFrame library. Handles datasets larger than memory. Lazy evaluation, fast aggregations.
+- **[Dask](https://github.com/dask/dask)** (13.7k GitHub stars): Parallel computing library. Scales Pandas operations to multiple cores/clusters. Lazy evaluation.
+- **[Modin](https://github.com/modin-project/modin)** (10.4k GitHub stars): Drop-in Pandas replacement. Automatically parallelizes operations. Uses Ray or Dask backend.
+- **[Ray](https://github.com/ray-project/ray)** (41.1k GitHub stars): Distributed computing framework. Can be used with Modin for parallel DataFrame operations.
+- **[Vaex](https://github.com/vaexio/vaex)** (8.5k GitHub stars): Out-of-core DataFrame library. Handles datasets larger than memory. Lazy evaluation, fast aggregations.
 
 ### In-Memory Analytical Databases
-- **[DuckDB](https://github.com/duckdb/duckdb)** (35.6k GitHub stars): In-process analytical database. SQL interface, fast queries on Parquet/CSV. Can be used as DataFrame alternative.
-- **[Polars](https://github.com/pola-rs/polars)**: Also supports SQL queries via `polars.sql` (see Core DataFrame Libraries).
+- **[DuckDB](https://github.com/duckdb/duckdb)** (35.8k GitHub stars): In-process analytical database. SQL interface, fast queries on Parquet/CSV. Can be used as DataFrame alternative.
+- **[Polars](https://github.com/pola-rs/polars)** (37.3k GitHub stars): Also supports SQL queries via `polars.sql` (see Core DataFrame Libraries).
 
 ### Specialized DataFrame Libraries
-- **[PyArrow](https://github.com/apache/arrow)** (16.2k GitHub stars): Columnar in-memory format. Foundation for many DataFrame libraries. Fast I/O, zero-copy reads.
+- **[PyArrow](https://github.com/apache/arrow)** (16.5k GitHub stars): Columnar in-memory format. Foundation for many DataFrame libraries. Fast I/O, zero-copy reads.
 - **[Apache Spark (PySpark)](https://github.com/apache/spark)** (42.7k GitHub stars): Distributed DataFrame API. For big data processing on clusters. Part of Apache Spark ecosystem.
 - **[Koalas (Pandas API on Spark)](https://github.com/databricks/koalas)** (3.4k GitHub stars): Pandas-like API on Spark. Now part of PySpark as `pyspark.pandas`.
-- **[Ibis](https://github.com/ibis-project/ibis)** (3.1k GitHub stars): Python dataframe library with SQL backends. Write DataFrame code, execute on databases.
+- **[Ibis](https://github.com/ibis-project/ibis)** (6.4k GitHub stars): Python dataframe library with SQL backends. Write DataFrame code, execute on databases.
 - **Pandas-API**: Unified API across multiple DataFrame libraries (Pandas, Polars, PySpark, etc.). Write once, run anywhere.
 
 ### DataFrame Interoperability
-- **[Pandas](https://github.com/pandas-dev/pandas)**: Can read/write many formats (CSV, Parquet, Excel, JSON, SQL, etc.).
-- **[Polars](https://github.com/pola-rs/polars)**: Fast I/O, supports Parquet, CSV, JSON, Arrow, Excel. Can read from databases.
-- **[PyArrow](https://github.com/apache/arrow)**: Enables zero-copy data sharing between libraries. Used by Pandas, Polars, DuckDB.
+- **[Pandas](https://github.com/pandas-dev/pandas)** (47.8k GitHub stars): Can read/write many formats (CSV, Parquet, Excel, JSON, SQL, etc.).
+- **[Polars](https://github.com/pola-rs/polars)** (37.3k GitHub stars): Fast I/O, supports Parquet, CSV, JSON, Arrow, Excel. Can read from databases.
+- **[PyArrow](https://github.com/apache/arrow)** (16.5k GitHub stars): Enables zero-copy data sharing between libraries. Used by Pandas, Polars, DuckDB.
 - **[Fletcher](https://github.com/xhochy/fletcher)** (228 GitHub stars): Pandas extension for Apache Arrow. Efficient columnar operations.
 - **[Narwhals](https://github.com/prefix-dev/narwhals)** (1.5k GitHub stars): Lightweight compatibility layer between dataframe libraries. Write dataframe-agnostic code that works with Pandas, Polars, PyArrow, cuDF, Modin, Dask, DuckDB, and more.
 - **[pyjanitor](https://github.com/pyjanitor-devs/pyjanitor)** (1.5k GitHub stars): Data cleaning library (pandas extension). Clean APIs for data cleaning tasks. Python implementation of R package Janitor.
@@ -89,20 +89,21 @@ Curated list of python libraries for data, science, and data science.
 - **[sktime](https://github.com/sktime/sktime)** (9.4k GitHub stars): Unified framework for machine learning with time series. Offers forecasting pipelines and composition tools. Scikit-learn compatible.
 - **[tsfresh](https://github.com/blue-yonder/tsfresh)** (9.1k GitHub stars): Automatic extraction of relevant features from time series data. Complements forecasting libraries like Prophet.
 - **[statsforecast](https://github.com/nixtla/statsforecast)** (4.6k GitHub stars): Lightning-fast forecasting library with statistical and econometric models. By Nixtla.
-- **[pandas-ta](https://github.com/twopirllc/pandas-ta)**: Technical analysis indicators for time series. Pandas extension for technical analysis.
+- **[pandas-ta](https://github.com/twopirllc/pandas-ta)** (6.1k GitHub stars): Technical analysis indicators for time series. Pandas extension for technical analysis.
 
 ### GPU-Accelerated DataFrames
 - **[cuDF (RAPIDS)](https://github.com/rapidsai/cudf)** (9.5k GitHub stars): GPU-accelerated DataFrame library. Pandas-like API, runs on NVIDIA GPUs. Part of RAPIDS ecosystem.
-- **[Polars](https://github.com/pola-rs/polars)**: Can use GPU acceleration in some operations (experimental).
+- **[Polars](https://github.com/pola-rs/polars)** (37.3k GitHub stars): Can use GPU acceleration in some operations (experimental).
 
 ### DataFrame Validation & Testing
 - **[Pandera](https://github.com/unionai/pandera)** (4.2k GitHub stars): DataFrame validation library. Schema validation, data quality checks. Works with Pandas, Polars, Dask.
 - **[Great Expectations](https://github.com/great-expectations/great_expectations)** (11.1k GitHub stars): Data validation and testing framework. Works with Pandas, Spark, SQL databases.
+- **[Pointblank](https://posit.co/blog/introducing-pointblank-for-python/)** (332 GitHub stars): Data validation and testing library from Posit (formerly RStudio). Works with Pandas, Polars, DuckDB, ....
 
 
 ### Polars Ecosystem
 
-- **[Awsome Polars](https://github.com/ddotta/awesome-polars)**: A curated list of awesome Polars libraries, resources, and tools.
+- **[Awesome Polars](https://github.com/ddotta/awesome-polars)** (1k GitHub stars): A curated list of awesome Polars libraries, resources, and tools.
 - **[Official site](https://docs.pola.rs/user-guide/ecosystem/)**: Official documentation for the Polars ecosystem.
 
 
@@ -113,9 +114,9 @@ Curated list of python libraries for data, science, and data science.
 - **[Statsmodels](https://github.com/statsmodels/statsmodels)** (11.2k GitHub stars): Statistical modeling and econometrics.
 - **[Patsy](https://github.com/pydata/patsy)** (978 GitHub stars): Statistical formulas and model specification.
 - **[Pingouin](https://github.com/raphaelvallat/pingouin)** (1.9k GitHub stars): Statistical package built on Pandas. Easy-to-use functions for common statistical analyses including ANOVAs, ANCOVAs, post-hoc tests, non-parametric tests, Bayesian T-tests, and more.
-- **[scipy.stats](https://github.com/scipy/scipy)**: Statistical functions (part of scipy, see Algebra section).
-- **[researchpy](https://github.com/researchpy/researchpy)**: Statistical analysis library. Additional statistical functions and tests.
-- **[pyvttbl](https://github.com/statmodels/pyvttbl)**: Analysis of variance library. Statistical analysis tools.
+- **[scipy.stats](https://github.com/scipy/scipy)** (14.3k GitHub stars): Statistical functions (part of scipy, see Algebra section).
+- **[researchpy](https://github.com/researchpy/researchpy)** (326 GitHub stars): Statistical analysis library. Additional statistical functions and tests.
+- **[pyvttbl](https://github.com/statmodels/pyvttbl)** (82 GitHub stars): Analysis of variance library. Statistical analysis tools.
 
 ### Bayesian Statistics
 - **[PyMC](https://github.com/pymc-devs/pymc)** (9.5k GitHub stars): Probabilistic programming and Bayesian modeling. MCMC (NUTS), variational inference, PyTensor backend. Integrates with ArviZ and Bambi.
@@ -141,7 +142,7 @@ Curated list of python libraries for data, science, and data science.
 
 ### Audio & Music
 - **[librosa](https://github.com/librosa/librosa)** (8.1k GitHub stars): Audio and music analysis. Spectral representations, chromagrams, Mel spectrograms, MFCCs, beat/tempo, onset detection, harmonic-percussive separation. Integrates with NumPy/SciPy.
-- **[soundfile](https://github.com/bastibe/python-soundfile)**: Audio I/O based on libsndfile. Read/write WAV, FLAC, OGG, etc. Returns NumPy arrays.
+- **[soundfile](https://github.com/bastibe/python-soundfile)** (1.5k GitHub stars): Audio I/O based on libsndfile. Read/write WAV, FLAC, OGG, etc. Returns NumPy arrays.
 
 ### Wavelets & Transforms
 - **[PyWavelets](https://github.com/PyWavelets/pywt)** (2.3k GitHub stars): Discrete wavelet transforms. DWT, IDWT, wavelet packets. Production-stable.
@@ -152,11 +153,11 @@ Curated list of python libraries for data, science, and data science.
 ## Classic ML
 
 ### Core ML Libraries
-- **[Scikit-learn](https://github.com/scikit-learn/scikit-learn)** (64.7k GitHub stars): Most popular machine learning library. Comprehensive tools for classification, regression, clustering, and more.
+- **[Scikit-learn](https://github.com/scikit-learn/scikit-learn)** (64.9k GitHub stars): Most popular machine learning library. Comprehensive tools for classification, regression, clustering, and more.
 - **[XGBoost](https://github.com/dmlc/xgboost)** (27.9k GitHub stars): Gradient boosting framework. Fast and efficient.
 - **[LightGBM](https://github.com/microsoft/LightGBM)** (18k GitHub stars): Gradient boosting framework by Microsoft. Fast training and high accuracy.
 - **[CatBoost](https://github.com/catboost/catboost)** (8.7k GitHub stars): Gradient boosting framework. Handles categorical features automatically.
-- **[Optuna](https://github.com/optuna/optuna)** (13.3k GitHub stars): Hyperparameter optimization framework. Automatic hyperparameter tuning.
+- **[Optuna](https://github.com/optuna/optuna)** (13.5k GitHub stars): Hyperparameter optimization framework. Automatic hyperparameter tuning.
 
 ### Specialized ML Libraries
 - **[imbalanced-learn](https://github.com/scikit-learn-contrib/imbalanced-learn)** (7.1k GitHub stars): Python package for handling imbalanced datasets in machine learning. Resampling techniques and metrics.
@@ -167,10 +168,8 @@ Curated list of python libraries for data, science, and data science.
 - **[shap](https://github.com/slundberg/shap)** (25k GitHub stars): SHAP (SHapley Additive exPlanations) values for model interpretation. Game theoretic approach to explain the output of any machine learning model.
 - **[lime](https://github.com/marcotcr/lime)** (12.1k GitHub stars): LIME (Local Interpretable Model-agnostic Explanations). Explaining the predictions of any machine learning classifier.
 - **[knockpy](https://amspector100.github.io/knockpy/)**: Implements the knockoff filter framework for feature selection. Akin to permutation importance, only that it accounts for the correlation structure of the features.
-- **[eli5](https://github.com/TeamHG-Memex/eli5)** (324 GitHub stars): Library for debugging and inspecting machine learning classifiers and explaining predictions.
-- **[yellowbrick](https://github.com/DistrictDataLabs/yellowbrick)**: ML visualization suite. Visual analysis and diagnostic tools for feature selection, model selection, and parameter tuning.
-
-
+- **[eli5](https://github.com/TeamHG-Memex/eli5)** (2.8k GitHub stars): Library for debugging and inspecting machine learning classifiers and explaining predictions.
+- **[yellowbrick](https://github.com/DistrictDataLabs/yellowbrick)** (4.4k GitHub stars): ML visualization suite. Visual analysis and diagnostic tools for feature selection, model selection, and parameter tuning.
 
 ## Deep Learning
 
@@ -186,18 +185,18 @@ Curated list of python libraries for data, science, and data science.
 - **[FastAI](https://github.com/fastai/fastai)** (27.8k GitHub stars): High-level deep learning library. Makes deep learning more accessible. Built on PyTorch.
 
 ### Model Formats & Tools
-- **[ONNX](https://github.com/onnx/onnx)**: Open Neural Network Exchange format. Interoperability between different deep learning frameworks.
-- **[TensorBoard](https://github.com/tensorflow/tensorboard)**: Visualization toolkit for TensorFlow. Part of TensorFlow ecosystem. Model visualization and monitoring.
+- **[ONNX](https://github.com/onnx/onnx)** (20.2k GitHub stars): Open Neural Network Exchange format. Interoperability between different deep learning frameworks.
+- **[TensorBoard](https://github.com/tensorflow/tensorboard)** (7.1k GitHub stars): Visualization toolkit for TensorFlow. Part of TensorFlow ecosystem. Model visualization and monitoring.
 
 ### Experiment Tracking
-- **[Weights & Biases (wandb)](https://github.com/wandb/wandb)**: Experiment tracking platform. Integrated with PyTorch Lightning and other frameworks.
-- **[MLflow](https://github.com/mlflow/mlflow)**: ML lifecycle management and experiment tracking. Open-source platform.
-- **[Neptune](https://github.com/neptune-ai/neptune-client)**: Experiment tracking platform. MLOps tool for managing experiments.
-- **[Comet](https://github.com/comet-ml/comet-llm)**: ML experiment tracking. Model management and monitoring.
+- **[Weights & Biases (wandb)](https://github.com/wandb/wandb)** (10.8k GitHub stars): Experiment tracking platform. Integrated with PyTorch Lightning and other frameworks.
+- **[MLflow](https://github.com/mlflow/mlflow)** (23.8k GitHub stars): ML lifecycle management and experiment tracking. Open-source platform.
+- **[Neptune](https://github.com/neptune-ai/neptune-client)** (1.4k GitHub stars): Experiment tracking platform. MLOps tool for managing experiments.
+- **[Comet](https://github.com/comet-ml/comet-llm)** (1.2k GitHub stars): ML experiment tracking. Model management and monitoring.
 
 ### Hyperparameter Tuning
-- **[Keras Tuner](https://github.com/keras-team/keras-tuner)**: Hyperparameter tuning for Keras. Automated hyperparameter search.
-- **[Ray Tune](https://github.com/ray-project/ray)**: Hyperparameter tuning (part of Ray, see Distributed & Parallel Processing). Scalable hyperparameter search.
+- **[Keras Tuner](https://github.com/keras-team/keras-tuner)** (2.5k GitHub stars): Hyperparameter tuning for Keras. Automated hyperparameter search.
+- **[Ray Tune](https://github.com/ray-project/ray)** (41.1k GitHub stars): Hyperparameter tuning (part of Ray, see Distributed & Parallel Processing). Scalable hyperparameter search.
 
 ## Reinforcement Learning
 
@@ -207,7 +206,7 @@ Curated list of python libraries for data, science, and data science.
 - **[MinAtar](https://github.com/kenjyoung/MinAtar)** (500+ GitHub stars): Minimalist Atari-like environments. Fast, lightweight; good for prototyping and research.
 
 ### Core Algorithm Libraries
-- **[RLlib](https://github.com/ray-project/ray)** (34.6k GitHub stars): Distributed RL library (part of Ray). Scalable training; many algorithms, multi-agent, offline RL. Uses Gymnasium/PettingZoo for environments.
+- **[RLlib](https://github.com/ray-project/ray)** (41.1k GitHub stars): Distributed RL library (part of Ray). Scalable training; many algorithms, multi-agent, offline RL. Uses Gymnasium/PettingZoo for environments.
 - **[Stable-Baselines3](https://github.com/DLR-RM/stable-baselines3)** (12.6k GitHub stars): Reliable implementations of deep RL algorithms (PPO, SAC, A2C, DQN, etc.). PyTorch-based; works with Gymnasium. Benchmarked, well-documented.
 - **[CleanRL](https://github.com/CleanRL/CleanRL)** (5.2k GitHub stars): Clean, single-file implementations of deep RL algorithms. Research-friendly; minimal dependencies, easy to read and modify. TensorBoard, W&B; supports Gymnasium.
 - **[Dopamine](https://github.com/google/dopamine)** (10.5k GitHub stars): Research framework for fast prototyping of RL algorithms. By Google. Focus on reproducibility and ablation; JAX-based (Dopamine 2.x).
@@ -270,29 +269,29 @@ Curated list of python libraries for data, science, and data science.
 - **[Libpysal](https://github.com/pysal/libpysal)** (270 GitHub stars): Core components of PySAL ecosystem.
 - **[Esda](https://github.com/pysal/esda)** (222 GitHub stars): Exploratory spatial data analysis.
 - **[Splot](https://github.com/pysal/splot)** (101 GitHub stars): Spatial visualization and plotting.
-- **[whitebox](https://github.com/opengeos/whitebox-python)**: Advanced geospatial analysis tools. Comprehensive suite of geospatial analysis functions.
+- **[whitebox](https://github.com/opengeos/whitebox-python)** (1.2k GitHub stars): Advanced geospatial analysis tools. Comprehensive suite of geospatial analysis functions.
 
 ### Visualization & Mapping
 - **[Folium](https://github.com/python-visualization/folium)** (7.3k GitHub stars): Interactive maps using Leaflet.js. Great for web maps.
 - **[Contextily](https://github.com/geopandas/contextily)** (573 GitHub stars): Add basemaps to matplotlib/geopandas plots.
-- **[Geoplotlib](https://github.com/andrea-cuttone/geoplotlib)**: Geographic data visualization toolkit.
-- **[Geoviews](https://github.com/holoviz/geoviews)**: Interactive geospatial visualizations with HoloViews.
+- **[Geoplotlib](https://github.com/andrea-cuttone/geoplotlib)** (1k GitHub stars): Geographic data visualization toolkit.
+- **[Geoviews](https://github.com/holoviz/geoviews)** (624 GitHub stars): Interactive geospatial visualizations with HoloViews.
 - **[Cartopy](https://github.com/SciTools/cartopy)** (1.6k GitHub stars): Cartographic projections and mapping (matplotlib extension).
 
 ### Remote Sensing & Satellite Data
-- **[Rasterio](https://github.com/rasterio/rasterio)**: Raster data I/O.
+- **[Rasterio](https://github.com/rasterio/rasterio)** (2.5k GitHub stars): Raster data I/O.
 - **[Sentinelsat](https://github.com/sentinelsat/sentinelsat)** (1k GitHub stars): Search and download Sentinel satellite imagery.
 - **[Landsat-util](https://github.com/developmentseed/landsat-util)** (690 GitHub stars): Landsat satellite imagery utilities.
 - **[Py6S](https://github.com/robintw/Py6S)** (179 GitHub stars): Atmospheric correction for satellite imagery.
 
 ### Routing & Network Analysis
-- **[OSMnx](https://github.com/gboeing/osmnx)**: Street network analysis.
-- **[NetworkX](https://github.com/networkx/networkx)**: Graph and network analysis.
+- **[OSMnx](https://github.com/gboeing/osmnx)** (5.5k GitHub stars): Street network analysis.
+- **[NetworkX](https://github.com/networkx/networkx)** (16.5k GitHub stars): Graph and network analysis.
 - **[Routingpy](https://github.com/GIScience/routingpy)** (330 GitHub stars): Routing engine clients (OSRM, GraphHopper, etc.).
 
 ### Database Integration
 - **[GeoAlchemy2](https://github.com/geoalchemy/geoalchemy2)** (692 GitHub stars): Spatial extensions for SQLAlchemy (PostGIS support).
-- **[Psycopg2](https://github.com/psycopg/psycopg2)**: PostgreSQL adapter (for PostGIS databases).
+- **[Psycopg2](https://github.com/psycopg/psycopg2)** (4k GitHub stars): PostgreSQL adapter (for PostGIS databases).
 
 
 
@@ -311,13 +310,13 @@ Curated list of python libraries for data, science, and data science.
 - **[Datashader](https://github.com/holoviz/datashader)** (3.2k GitHub stars): Rasterization pipeline for large datasets. Fast visualization of big data.
 
 ### Specialized Visualization
-- **[missingno](https://github.com/ResidentMario/missingno)**: Visualize missing data patterns. Matrix plots, bar charts, and heatmaps for missing data.
-- **[yellowbrick](https://github.com/DistrictDataLabs/yellowbrick)**: ML visualization suite (also in Classic ML section). Visual analysis tools for ML.
+- **[missingno](https://github.com/ResidentMario/missingno)** (3.5k GitHub stars): Visualize missing data patterns. Matrix plots, bar charts, and heatmaps for missing data.
+- **[yellowbrick](https://github.com/DistrictDataLabs/yellowbrick)** (4.4k GitHub stars): ML visualization suite (also in Classic ML section). Visual analysis tools for ML.
 - **[wordcloud](https://github.com/amueller/word_cloud)** (10.5k GitHub stars): Word cloud generation library. Create word clouds from text.
 - **[Great Tables](https://github.com/posit-dev/great-tables)** (2.6k GitHub stars): Publication-quality display tables from Pandas or Polars DataFrames. Headers, footers, formatting, styling. Renders to HTML or images. By Posit.
-- **[mplfinance](https://github.com/matplotlib/mplfinance)**: Financial plotting library. Candlestick charts, technical indicators.
-- **[pygal](https://github.com/Kozea/pygal)**: SVG charting library. Create interactive SVG charts.
-- **[graphviz](https://github.com/xflr6/graphviz)**: Graph visualization library. Create and render graph structures.
+- **[mplfinance](https://github.com/matplotlib/mplfinance)** (1.1k GitHub stars): Financial plotting library. Candlestick charts, technical indicators.
+- **[pygal](https://github.com/Kozea/pygal)** (3.2k GitHub stars): SVG charting library. Create interactive SVG charts.
+- **[graphviz](https://github.com/xflr6/graphviz)** (1k GitHub stars): Graph visualization library. Create and render graph structures.
 
 ### Geographic Visualization
 - **[Geoplotlib](https://github.com/andrea-cuttone/geoplotlib)** (1k GitHub stars): Geographic data visualization toolkit.
@@ -340,8 +339,8 @@ Curated list of python libraries for data, science, and data science.
 ### Performance & GPU Acceleration
 - **[CuPy](https://github.com/cupy/cupy)** (10.7k GitHub stars): NumPy-compatible GPU array library. NumPy for the GPU with nearly identical API. Runs on NVIDIA GPUs.
 - **[Numba](https://github.com/numba/numba)** (10.9k GitHub stars): JIT (Just-In-Time) compiler that translates a subset of Python and NumPy code into fast machine code using LLVM. NumPy-aware dynamic Python compiler.
-- **[Cython](https://github.com/cython/cython)**: C extensions for Python. Used for performance optimization. Compile Python-like code to C.
-- **[Theano](https://github.com/Theano/Theano)**: (Deprecated) Historical deep learning library. No longer maintained but was influential in the development of modern deep learning frameworks. 
+- **[Cython](https://github.com/cython/cython)** (9.2k GitHub stars): C extensions for Python. Used for performance optimization. Compile Python-like code to C.
+- **[Theano](https://github.com/Theano/Theano)** (11.2k GitHub stars): (Deprecated) Historical deep learning library. No longer maintained but was influential in the development of modern deep learning frameworks. 
 
 ## DataBases
 
@@ -353,7 +352,7 @@ Curated list of python libraries for data, science, and data science.
 - **[SQLModel](https://github.com/tiangolo/sqlmodel)** (17.5k GitHub stars): Modern ORM by FastAPI creator. Combines SQLAlchemy with Pydantic. Type-safe, auto-completion.
 - **[Databases](https://github.com/encode/databases)** (4k GitHub stars): Async database library. Works with SQLAlchemy Core. Supports async operations.
 - **[Pony ORM](https://github.com/ponyorm/pony)** (3.8k GitHub stars): ORM with Pythonic query syntax. Automatic query optimization. Good for complex queries.
-- **[SQLObject](https://github.com/sqlobject/sqlobject)**: Alternative ORM. Object-relational mapper with a different approach.
+- **[SQLObject](https://github.com/sqlobject/sqlobject)** (578 GitHub stars): Alternative ORM. Object-relational mapper with a different approach.
 - **Storm**: ORM for Python. Database abstraction layer.
 
 ### Database Drivers & Adapters
@@ -375,7 +374,7 @@ Curated list of python libraries for data, science, and data science.
 
 ### Query Builders & SQL Tools
 - **[Records](https://github.com/kennethreitz/records)** (7.2k GitHub stars): Simple SQL query interface. Returns results as named tuples or dictionaries.
-- **[Dataset](https://github.com/pudo/dataset)**: Simple database abstraction. Works with SQLite, PostgreSQL, MySQL. Great for data science.
+- **[Dataset](https://github.com/pudo/dataset)** (5k GitHub stars): Simple database abstraction. Works with SQLite, PostgreSQL, MySQL. Great for data science.
 - **[Pypika](https://github.com/kayak/pypika)** (2.9k GitHub stars): SQL query builder. Write SQL queries in Python. Database agnostic.
 - **[SQLGlot](https://github.com/tobymao/sqlglot)** (8.8k GitHub stars): SQL parser, transpiler, and optimizer. Parse and transform SQL across dialects.
 
@@ -385,24 +384,24 @@ Curated list of python libraries for data, science, and data science.
 
 ### Migration Tools
 - **[Alembic](https://github.com/sqlalchemy/alembic)** (3.9k GitHub stars): Database migration tool for SQLAlchemy. Version control for database schemas.
-- **[Django Migrations](https://github.com/django/django)**: Built-in migration system for Django. Automatic migration generation.
-- **[yoyo-migrations](https://github.com/ollyc/yoyo)**: Database migration tool. Database agnostic, simple to use.
+- **[Django Migrations](https://github.com/django/django)** (86.5k GitHub stars): Built-in migration system for Django. Automatic migration generation.
+- **[yoyo-migrations](https://github.com/ollyc/yoyo)** (1.2k GitHub stars): Database migration tool. Database agnostic, simple to use.
 
 ### Data Integration & ETL
-- **[SQLAlchemy](https://github.com/sqlalchemy/sqlalchemy)**: Can be used for ETL operations with its Core layer.
-- **[Pandas](https://github.com/pandas-dev/pandas)**: Read/write to databases via SQLAlchemy or direct drivers. Great for data analysis workflows.
-- **[Polars](https://github.com/pola-rs/polars)**: Fast DataFrame library with database integration. Can query databases directly.
-- **[DuckDB](https://github.com/duckdb/duckdb)**: In-process analytical database. Can query Parquet, CSV, and other formats. SQL interface.
+- **[SQLAlchemy](https://github.com/sqlalchemy/sqlalchemy)** (11.4k GitHub stars): Can be used for ETL operations with its Core layer.
+- **[Pandas](https://github.com/pandas-dev/pandas)** (47.8k GitHub stars): Read/write to databases via SQLAlchemy or direct drivers. Great for data analysis workflows.
+- **[Polars](https://github.com/pola-rs/polars)** (37.3k GitHub stars): Fast DataFrame library with database integration. Can query databases directly.
+- **[DuckDB](https://github.com/duckdb/duckdb)** (35.8k GitHub stars): In-process analytical database. Can query Parquet, CSV, and other formats. SQL interface.
 - **[ConnectorX](https://github.com/sfu-db/connector-x)** (2.5k GitHub stars): Fast library for loading data from databases to DataFrames. Supports PostgreSQL, MySQL, SQLite, SQL Server, Oracle. Works with Pandas, PyArrow, Modin, Dask, Polars.
 - **[dbc](https://github.com/prefix-dev/dbc)** (79 GitHub stars): Command-line tool for installing and managing ADBC (Apache Arrow Database Connectivity) drivers. Works on macOS, Linux, and Windows. Supports reproducible project environments with driver lists and lockfiles.
 - **[Airflow](https://github.com/apache/airflow)** (43.9k GitHub stars): Apache Airflow - platform to programmatically author, schedule, and monitor workflows. Industry standard for workflow orchestration.
 - **[Prefect](https://github.com/PrefectHQ/prefect)** (21.4k GitHub stars): Modern workflow orchestration framework for building resilient data pipelines. Python-first development with dynamic workflows.
 - **[Luigi](https://github.com/spotify/luigi)** (18.6k GitHub stars): Python module for building complex pipelines of batch jobs. Handles dependency resolution, workflow management, visualization. Built-in Hadoop support.
-- **[Bonobo](https://github.com/python-bonobo/bonobo)**: ETL framework for Python. Simple, lightweight, and extensible.
+- **[Bonobo](https://github.com/python-bonobo/bonobo)** (1.9k GitHub stars): ETL framework for Python. Simple, lightweight, and extensible.
 
 ### NoSQL & Document Databases
-- **[pymongo](https://github.com/mongodb/mongo-python-driver)**: MongoDB driver (see Database Drivers).
-- **[motor](https://github.com/mongodb/motor)**: Async MongoDB driver (see Database Drivers).
+- **[pymongo](https://github.com/mongodb/mongo-python-driver)** (1k GitHub stars): MongoDB driver (see Database Drivers).
+- **[motor](https://github.com/mongodb/motor)** (2.5k GitHub stars): Async MongoDB driver (see Database Drivers).
 - **[cassandra-driver](https://github.com/datastax/python-driver)** (1.4k GitHub stars): Apache Cassandra driver. For distributed NoSQL databases.
 - **[elasticsearch-py](https://github.com/elastic/elasticsearch-py)** (4.4k GitHub stars): Elasticsearch client. For search and analytics.
 - **[neo4j](https://github.com/neo4j/neo4j-python-driver)** (1k GitHub stars): Neo4j graph database driver. For graph databases.
@@ -418,7 +417,7 @@ Curated list of python libraries for data, science, and data science.
 - **[DuckDB](https://github.com/duckdb/duckdb)** (35.6k GitHub stars): In-process analytical DB with vector extension. SQL interface; store and query embeddings alongside tabular data (see In-Memory Analytical Databases).
 - **[LanceDB](https://github.com/lancedb/lancedb)** (5.2k GitHub stars): Embedded vector database. Runs in-process like SQLite; no server. Built on Lance (columnar format). Vector search, metadata filtering, multimodal. Good for RAG and LLM apps.
 - **[Chroma](https://github.com/chroma-core/chroma)** (14.2k GitHub stars): Vector database with embedded mode. Can run in-process (no server) or as a client to a Chroma server. Persistent or in-memory.
-- **[sqlite-vec](https://github.com/asg017/sqlite-vec)**: SQLite extension for vector similarity search. In-process, single file. Good for small to medium vector workloads.
+- **[sqlite-vec](https://github.com/asg017/sqlite-vec)** (1.2k GitHub stars): SQLite extension for vector similarity search. In-process, single file. Good for small to medium vector workloads.
 
 #### Server, managed, or client–server
 - **[Milvus](https://github.com/milvus-io/milvus)** (30.2k GitHub stars): Open-source vector database. Self-hosted or Zilliz Cloud. Multiple index types (HNSW, IVF, etc.), scalable.
@@ -426,12 +425,12 @@ Curated list of python libraries for data, science, and data science.
 - **[Weaviate](https://github.com/weaviate/weaviate)** (11.2k GitHub stars): Vector database with GraphQL and REST. Self-hosted or Weaviate Cloud. Hybrid search, modules for embeddings and ML.
 - **[pgvector](https://github.com/pgvector/pgvector)** (8.5k GitHub stars): PostgreSQL extension for vector similarity search. Use with standard PostgreSQL drivers (e.g. psycopg2). Server-based.
 - **[Pinecone](https://www.pinecone.io/)**: Managed vector database (cloud only). Serverless or pod-based. Python client; no self-hosting.
-- **[Chroma](https://github.com/chroma-core/chroma)** (server mode): Run Chroma as a separate server; connect via client (see In-process for embedded use).
+- **[Chroma](https://github.com/chroma-core/chroma)** (14.2k GitHub stars, server mode): Run Chroma as a separate server; connect via client (see In-process for embedded use).
 
 #### Populating vector databases
 - **Embeddings**: Generate vectors before or during ingestion. **[sentence-transformers](https://github.com/UKPLab/sentence-transformers)** (16.5k GitHub stars): Local embedding models (e.g. all-MiniLM). **[openai](https://github.com/openai/openai-python)** / **[tiktoken](https://github.com/openai/tiktoken)**: OpenAI embeddings and tokenization. **[Hugging Face Transformers](https://github.com/huggingface/transformers)** (see Deep Learning): General embedding models.
 - **Document loaders & chunking**: **[LlamaIndex](https://github.com/run-llama/llama_index)** (46.5k GitHub stars): Document loaders, chunking, and ingestion pipelines for RAG; supports many vector stores (in-process and server). **[LangChain](https://github.com/langchain-ai/langchain)**: Document loaders, text splitters, and vector-store integrations (Chroma, Qdrant, Pinecone, etc.).
-- **Batch ingestion**: In-process DBs (LanceDB, Chroma embedded, DuckDB) are populated by adding records from your process. Server DBs (Qdrant, Weaviate, Pinecone, pgvector) are populated via their Python clients; use batching APIs for large datasets. **[ConnectorX](https://github.com/sfu-db/connector-x)** (see Data Integration): Load from relational DBs into DataFrames; then embed and write to your vector DB of choice.
+- **Batch ingestion**: In-process DBs (LanceDB, Chroma embedded, DuckDB) are populated by adding records from your process. Server DBs (Qdrant, Weaviate, Pinecone, pgvector) are populated via their Python clients; use batching APIs for large datasets. **[ConnectorX](https://github.com/sfu-db/connector-x)** (2.5k GitHub stars, see Data Integration): Load from relational DBs into DataFrames; then embed and write to your vector DB of choice.
 
 ### Database Testing & Fixtures
 - **[pytest-postgresql](https://github.com/ClearcodeHQ/pytest-postgresql)** (505 GitHub stars): PostgreSQL fixtures for pytest. Isolated test databases.
@@ -446,9 +445,9 @@ Curated list of python libraries for data, science, and data science.
 - **[Hypothesis](https://github.com/HypothesisWorks/hypothesis)** (8.4k GitHub stars): Property-based testing.
 - **[Marshmallow](https://github.com/marshmallow-code/marshmallow)** (7.2k GitHub stars): Lightweight library for converting complex objects to and from simple Python datatypes. Object serialization/deserialization.
 - **[attrs](https://github.com/python-attrs/attrs)** (5.1k GitHub stars): Classes without boilerplate. The base attrs library that many validation tools build upon.
-- **[msgspec](https://github.com/jcrist/msgspec)**: Fast serialization and validation library with built-in support for JSON, MessagePack, YAML, and TOML.
-- **[Cerberus](https://github.com/pyeve/cerberus)**: Lightweight data validation library.
-- **[Voluptuous](https://github.com/alecthomas/voluptuous)**: Data validation library with a focus on clarity and simplicity.
+- **[msgspec](https://github.com/jcrist/msgspec)** (2.2k GitHub stars): Fast serialization and validation library with built-in support for JSON, MessagePack, YAML, and TOML.
+- **[Cerberus](https://github.com/pyeve/cerberus)** (3.2k GitHub stars): Lightweight data validation library.
+- **[Voluptuous](https://github.com/alecthomas/voluptuous)** (2.1k GitHub stars): Data validation library with a focus on clarity and simplicity.
 - **dataclasses**: Built-in (Python 3.7+). Classes with automatically generated special methods. No separate repo.
 - **TypedDict**: Built-in (Python 3.8+). Type hints for dictionaries with a fixed set of keys. No separate repo.
 
@@ -460,9 +459,9 @@ Curated list of python libraries for data, science, and data science.
 - **[FastAPI](https://github.com/tiangolo/fastapi)** (94.5k GitHub stars): Modern, high-performance web framework for building APIs with Python. Based on standard Python type hints. Fast development speed, automatic API documentation.
 - **[Django](https://github.com/django/django)** (86.6k GitHub stars): The Web framework for perfectionists with deadlines. Full-featured framework with ORM, admin panel, and more. (Note: Django ORM is also listed in Databases section)
 - **[Flask](https://github.com/pallets/flask)** (71.1k GitHub stars): The Python micro framework for building web applications. Very popular for APIs and web apps. Minimal and flexible.
-- **[Bottle](https://github.com/bottlepy/bottle)**: Lightweight web framework. Single-file framework, minimal dependencies.
-- **[Tornado](https://github.com/tornadoweb/tornado)**: Web framework and asynchronous networking library. Handles long-polling and WebSockets.
-- **[Sanic](https://github.com/sanic-org/sanic)**: Async web framework. Built for speed, supports async/await.
+- **[Bottle](https://github.com/bottlepy/bottle)** (8.7k GitHub stars): Lightweight web framework. Single-file framework, minimal dependencies.
+- **[Tornado](https://github.com/tornadoweb/tornado)** (22.4k GitHub stars): Web framework and asynchronous networking library. Handles long-polling and WebSockets.
+- **[Sanic](https://github.com/sanic-org/sanic)** (18.2k GitHub stars): Async web framework. Built for speed, supports async/await.
 
 ### Ultra-Lightweight (Minimal Dependencies)
 - **[Gradio](https://github.com/gradio-app/gradio)** (41.4k GitHub stars): Very lightweight, perfect for ML demos. Auto-generates UI from function signatures. Minimal code required.
@@ -490,7 +489,7 @@ Curated list of python libraries for data, science, and data science.
 - **[Rich](https://github.com/Textualize/rich)** (55.2k GitHub stars): Beautiful terminal output and progress bars. Very lightweight.
 - **[Textual](https://github.com/Textualize/textual)** (33.8k GitHub stars): Terminal UI framework. Build interactive terminal apps. Lightweight.
 - **[Click](https://github.com/pallets/click)** (17.1k GitHub stars): Command-line interface creation. Minimal dependencies.
-- **[cursor](https://github.com/lethargilistic/cursor)**: Terminal cursor control library. Hide or show the terminal cursor. Works on Linux and Windows.
+- **[cursor](https://github.com/lethargilistic/cursor)** (194 GitHub stars): Terminal cursor control library. Hide or show the terminal cursor. Works on Linux and Windows.
 
 ## Linters
 
@@ -511,8 +510,8 @@ Curated list of python libraries for data, science, and data science.
 
 ### Web Scraping & HTTP
 - **[requests](https://github.com/psf/requests)** (53.7k GitHub stars): Simple, elegant HTTP library for Python. Most popular Python HTTP library.
-- **[aiohttp](https://github.com/aio-libs/aiohttp)**: Async HTTP client/server framework. For async web scraping and API clients.
-- **[beautifulsoup4](https://github.com/waylan/beautifulsoup4)**: Web scraping and HTML/XML parsing library. Extract data from HTML and XML files.
+- **[aiohttp](https://github.com/aio-libs/aiohttp)** (16.2k GitHub stars): Async HTTP client/server framework. For async web scraping and API clients.
+- **[beautifulsoup4](https://github.com/waylan/beautifulsoup4)** (30k GitHub stars): Web scraping and HTML/XML parsing library. Extract data from HTML and XML files.
 - **[scrapy](https://github.com/scrapy/scrapy)** (59.5k GitHub stars): Fast, high-level web crawling and scraping framework. Production-ready web scraping.
 
 ### Testing
@@ -526,10 +525,10 @@ Curated list of python libraries for data, science, and data science.
 - **[kedro](https://github.com/kedro-org/kedro)** (10.7k GitHub stars): Toolbox for production-ready data science. Uses software engineering best practices to help create data engineering and data science pipelines that are reproducible, maintainable, and modular.
 
 ### Project Management & Templates
-- **[cookiecutter](https://github.com/cookiecutter/cookiecutter)**: Project templates. Generate projects from cookiecutters (project templates).
-- **[poetry](https://github.com/python-poetry/poetry)**: Modern dependency management. Dependency resolution and packaging.
-- **[pipenv](https://github.com/pypa/pipenv)**: Dependency management. Combines pip and virtualenv.
-- **[conda](https://github.com/conda/conda)**: Package and environment management. Popular in data science for managing environments.
+- **[cookiecutter](https://github.com/cookiecutter/cookiecutter)** (24.5k GitHub stars): Project templates. Generate projects from cookiecutters (project templates).
+- **[poetry](https://github.com/python-poetry/poetry)** (29.5k GitHub stars): Modern dependency management. Dependency resolution and packaging.
+- **[pipenv](https://github.com/pypa/pipenv)** (24.5k GitHub stars): Dependency management. Combines pip and virtualenv.
+- **[conda](https://github.com/conda/conda)** (6.2k GitHub stars): Package and environment management. Popular in data science for managing environments.
 - **[uv](https://github.com/astral-sh/uv)** (77.6k GitHub stars): Extremely fast Python package and project manager by Astral (creators of Ruff). Replaces tools like pip, pip-tools, pipx, poetry, pyenv, and virtualenv.
 
 

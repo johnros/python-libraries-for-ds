@@ -1,0 +1,1490 @@
+[
+  {
+    "repo": "Aider-AI/aider",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "CamDavidsonPilon/lifelines",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "CleanRL/CleanRL",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "ClearcodeHQ/pytest-mysql",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "ClearcodeHQ/pytest-postgresql",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "DLR-RM/stable-baselines3",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "DistrictDataLabs/yellowbrick",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "FactoryBoy/factory_boy",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "Farama-Foundation/Gymnasium",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "Farama-Foundation/PettingZoo",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "GIScience/routingpy",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "GeospatialPython/pyshp",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "HypothesisWorks/hypothesis",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "Kozea/pygal",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "Lightning-AI/pytorch-lightning",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "OSGeo/gdal",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "OpenAccess-AI-Collective/axolotl",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "OpenRLHF/OpenRLHF",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "PrefectHQ/prefect",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "PyCQA/bandit",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "PyCQA/flake8",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "PyCQA/pydocstyle",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "PyWavelets/pywt",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "ResidentMario/missingno",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "SciTools/cartopy",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "Significant-Gravitas/AutoGPT",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "Stable-Baselines-Team/stable-baselines3-contrib",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "TeamHG-Memex/eli5",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "Textualize/rich",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "Textualize/textual",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "Theano/Theano",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "Toblerity/Fiona",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "TomSchimansky/CustomTkinter",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "UKPLab/sentence-transformers",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "aio-libs/aiohttp",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "alecthomas/voluptuous",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "amueller/word_cloud",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "andrea-cuttone/geoplotlib",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "anthropics/claude-code",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "apache/airflow",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "apache/arrow",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "apache/spark",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "arviz-devs/arviz",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "arviz-devs/preliz",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "asg017/sqlite-vec",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "astral-sh/ruff",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "astral-sh/uv",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "bambinos/bambi",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "bashtage/arch",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "bashtage/linearmodels",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "bastibe/python-soundfile",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "blue-yonder/tsfresh",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "bokeh/bokeh",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "bottlepy/bottle",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "catboost/catboost",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "chroma-core/chroma",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "coleifer/peewee",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "comet-ml/comet-llm",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "conda/conda",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "cookiecutter/cookiecutter",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "corteva/rioxarray",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "cupy/cupy",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "cython/cython",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "dask/dask",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "databricks/koalas",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "datastax/python-driver",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "ddotta/awesome-polars",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "deepnote/deepnote",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "deepset-ai/haystack",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "developmentseed/landsat-util",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "django/django",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "dmlc/xgboost",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "duckdb/duckdb",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "elastic/elasticsearch-py",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "encode/databases",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "executablebooks/jupyter-book",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "facebook/prophet",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "facebookresearch/faiss",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "fastai/fastai",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "flet-dev/flet",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "gboeing/osmnx",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "geoalchemy/geoalchemy2",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "geopandas/contextily",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "geopandas/geopandas",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "geopy/geopy",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "google/dopamine",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "google/jax",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "gradio-app/gradio",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "great-expectations/great_expectations",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "h2oai/datatable",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "has2k1/plotnine",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "holoviz/datashader",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "holoviz/geoviews",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "holoviz/holoviews",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "holoviz/panel",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "huggingface/accelerate",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "huggingface/smolagents",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "huggingface/transformers",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "huggingface/trl",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "ibis-project/ibis",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "influxdata/influxdb-client-python",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "ipython/ipython",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "iterative/dvc",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "jcrist/msgspec",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "joaomdmoura/crewAI",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "jupyter/nbconvert",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "jupyter/notebook",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "jupyterlab/jupyterlab",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "justpy-org/justpy",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "kayak/pypika",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "kedro-org/kedro",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "kenjyoung/MinAtar",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "kennethreitz/records",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "keras-team/keras",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "keras-team/keras-tuner",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "lancedb/lancedb",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "langchain-ai/langchain",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "langchain-ai/langgraph",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "lethargilistic/cursor",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "librosa/librosa",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "marcotcr/lime",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "marimo-team/marimo",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "marshmallow-code/marshmallow",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "matplotlib/matplotlib",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "matplotlib/mplfinance",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "microsoft/LightGBM",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "microsoft/autogen",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "microsoft/pyright",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "microsoft/semantic-kernel",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "microsoft/vscode",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "milvus-io/milvus",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "ml-explore/mlx",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "mlflow/mlflow",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "modin-project/modin",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "mongodb/mongo-python-driver",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "mongodb/motor",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "mwaskom/seaborn",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "neo4j/neo4j-python-driver",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "neptune-ai/neptune-client",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "networkx/networkx",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "nixtla/statsforecast",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "nteract/nteract",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "nteract/papermill",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "numba/numba",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "numpy/numpy",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "observablehq/observable",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "obspy/obspy",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "ollyc/yoyo",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "onnx/onnx",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "opengeos/whitebox-python",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "openinterpreter/open-interpreter",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "optuna/optuna",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "pallets/click",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "pallets/flask",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "pandas-dev/pandas",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "perrygeo/python-raster-stats",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "pgvector/pgvector",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "plotly/dash",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "plotly/plotly.py",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "pola-rs/polars",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "ponyorm/pony",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "posit-dev/great-tables",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "posit-dev/positron",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "posit-dev/py-shiny",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "prefix-dev/dbc",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "prefix-dev/narwhals",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "psf/requests",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "psycopg/psycopg2",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "pudo/dataset",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "pydantic/pydantic",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "pydantic/pydantic-ai",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "pydata/patsy",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "pydata/xarray",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "pyeve/cerberus",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "pyjanitor-devs/pyjanitor",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "pylint-dev/pylint",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "pymc-devs/pymc",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "pypa/pipenv",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "pyproj4/pyproj",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "pysal/esda",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "pysal/libpysal",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "pysal/pysal",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "pysal/splot",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "pytest-dev/pytest",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "python/mypy",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "python-attrs/attrs",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "python-bonobo/bonobo",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "python-poetry/poetry",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "python-visualization/folium",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "pytorch/pytorch",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "qdrant/qdrant",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "quarto-dev/quarto-cli",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "raphaelvallat/pingouin",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "rapidsai/cudf",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "rasbt/mlxtend",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "rasterio/rasterio",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "ray-project/ray",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "reflex-dev/reflex",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "researchpy/researchpy",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "reworkd/AgentGPT",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "robintw/Py6S",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "rstudio/reticulate",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "run-llama/llama_index",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "sagemathinc/cocalc",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "sanic-org/sanic",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "scikit-image/scikit-image",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "scikit-learn/scikit-learn",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "scikit-learn-contrib/imbalanced-learn",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "scipy/scipy",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "scrapy/scrapy",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "sentinelsat/sentinelsat",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "sfu-db/connector-x",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "shapely/shapely",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "skrub-data/skrub",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "sktime/sktime",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "slundberg/shap",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "spotify/luigi",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "spyder-ide/spyder",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "sqlalchemy/alembic",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "sqlalchemy/sqlalchemy",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "sqlobject/sqlobject",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "statmodels/pyvttbl",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "statsmodels/statsmodels",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "streamlit/streamlit",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "sympy/sympy",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "tensorflow/tensorboard",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "tensorflow/tensorflow",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "tiangolo/fastapi",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "tiangolo/sqlmodel",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "timescale/timescaledb",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "tobymao/sqlglot",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "tornadoweb/tornado",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "tortoise/tortoise-orm",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "trevismd/statannotations",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "twopirllc/pandas-ta",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "unionai/pandera",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "vaexio/vaex",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "vega/altair",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "voila-dashboards/voila",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "wandb/wandb",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "warpdotdev/Warp",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "waylan/beautifulsoup4",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "weaviate/weaviate",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "widgetti/solara",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "xflr6/graphviz",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "xhochy/fletcher",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "yoheinakajima/babyagi",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  },
+  {
+    "repo": "zauberzeug/nicegui",
+    "current_stars": null,
+    "new_stars_30d": null,
+    "stars_month_ago": null
+  }
+]
