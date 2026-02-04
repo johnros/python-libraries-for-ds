@@ -131,6 +131,10 @@ Curated list of python libraries for data, science, and data science.
 ### Survival Analysis
 - **[lifelines](https://github.com/CamDavidsonPilon/lifelines)** (2.5k GitHub stars): Survival and duration analysis. Kaplan–Meier, Nelson–Aalen, parametric and semi-parametric models, censoring. Pure Python, pandas-friendly.
 
+### Causal Inference
+- **[DoWhy](https://github.com/py-why/dowhy)** (6.8k GitHub stars): End-to-end causal inference. Model, identify, estimate, refute. Graphical causal models and potential outcomes. Part of PyWhy ecosystem.
+- **[EconML](https://github.com/py-why/econml)** (7.2k GitHub stars): Microsoft's library for heterogeneous treatment effects. CATE estimation, instrumental variables, policy learning. Integrates with DoWhy.
+
 ### Statistical Annotations and Post-Hoc
 - **[statannotations](https://github.com/trevismd/statannotations)** (822 GitHub stars): Add statistical test annotations (p-values, stars) to seaborn figures (box, bar, violin, etc.). Multiple-test correction options.
 
@@ -170,6 +174,39 @@ Curated list of python libraries for data, science, and data science.
 - **[knockpy](https://amspector100.github.io/knockpy/)**: Implements the knockoff filter framework for feature selection. Akin to permutation importance, only that it accounts for the correlation structure of the features.
 - **[eli5](https://github.com/TeamHG-Memex/eli5)** (2.8k GitHub stars): Library for debugging and inspecting machine learning classifiers and explaining predictions.
 - **[yellowbrick](https://github.com/DistrictDataLabs/yellowbrick)** (4.4k GitHub stars): ML visualization suite. Visual analysis and diagnostic tools for feature selection, model selection, and parameter tuning.
+
+### AutoML
+- **[auto-sklearn](https://github.com/automl/auto-sklearn)** (8k GitHub stars): Automated ML with meta-learning. Drop-in scikit-learn replacement. Bayesian optimization, ensemble construction.
+- **[FLAML](https://github.com/microsoft/FLAML)** (4.3k GitHub stars): Fast and lightweight AutoML by Microsoft. Efficient hyperparameter tuning and model selection. Scikit-learn compatible.
+- **[TPOT](https://github.com/EpistasisLab/tpot)** (9.5k GitHub stars): Genetic programming for AutoML. Automatically designs and optimizes ML pipelines. Built on scikit-learn.
+- **H2O AutoML**: Automated ML from H2O.ai. Python API for automatic model training and selection. Part of H2O-3 ecosystem.
+
+### Recommendation Systems
+- **[Surprise](https://github.com/NicolasHug/Surprise)** (6.8k GitHub stars): Building and analyzing recommender systems. SVD, NMF, collaborative filtering. Built-in datasets (MovieLens, Jester), cross-validation.
+- **[implicit](https://github.com/benfred/implicit)** (3.5k GitHub stars): Fast collaborative filtering for implicit feedback. ALS, BPR, Logistic Matrix Factorization. GPU support, Cython-optimized.
+
+### Anomaly Detection
+- **[PyOD](https://github.com/yzhao062/pyod)** (9.7k GitHub stars): Comprehensive anomaly detection. 45+ algorithms (classical and deep learning). Unified API, scikit-learn compatible. ADBench benchmarking.
+
+### Feature Engineering
+- **[Featuretools](https://github.com/alteryx/featuretools)** (7.6k GitHub stars): Automated feature engineering from relational and temporal data. Deep Feature Synthesis. Multi-table, time-aware feature generation.
+
+## NLP
+
+### Core NLP Libraries
+- **[spaCy](https://github.com/explosion/spaCy)** (30.2k GitHub stars): Production-focused NLP library. Fast tokenization, NER, dependency parsing, pre-trained models for many languages. Modern alternative to NLTK.
+- **[NLTK](https://github.com/nltk/nltk)** (13.2k GitHub stars): Classic NLP toolkit for research and education. Tokenization, parsing, POS tagging, corpora. Extensive documentation and resources.
+- **[Gensim](https://github.com/RaRe-Technologies/gensim)** (15.4k GitHub stars): Topic modeling (LDA), word embeddings (Word2Vec, FastText), document similarity. Unsupervised NLP for semantic analysis.
+- **[TextBlob](https://github.com/sloria/TextBlob)** (9.2k GitHub stars): Simple NLP for sentiment analysis, POS tagging, noun phrase extraction. Built on NLTK and Pattern. Easy API for quick text processing.
+- **[Stanza](https://github.com/stanfordnlp/stanza)** (7.2k GitHub stars): Stanford NLP Python port. Full neural pipeline for 66+ languages. Tokenization, POS, NER, dependency parsing, sentiment.
+
+## Computer Vision
+
+### Core Image Libraries
+- **[OpenCV](https://github.com/opencv/opencv)** (80.2k GitHub stars): The standard computer vision library. Image I/O, filtering, feature detection, object detection, video processing. C++ core with Python bindings.
+- **[Pillow](https://github.com/python-pillow/Pillow)** (12.8k GitHub stars): Image loading, resizing, format conversion. PIL fork; often the first library for basic image handling. Supports many formats.
+- **[albumentations](https://github.com/albumentations-team/albumentations)** (14.2k GitHub stars): Image augmentation for ML. Used with PyTorch/TensorFlow. Fast, flexible augmentations for training pipelines.
+- **[kornia](https://github.com/kornia/kornia)** (9.4k GitHub stars): Differentiable computer vision (PyTorch). Geometric transforms, feature detection, depth estimation. GPU-accelerated, differentiable ops.
 
 ## Deep Learning
 
@@ -518,7 +555,7 @@ Curated list of python libraries for data, science, and data science.
 - **[pytest](https://github.com/pytest-dev/pytest)** (13.5k GitHub stars): The pytest framework makes it easy to write small tests, yet scales to support complex functional testing. Most popular Python testing framework.
 
 ### Data Profiling & Quality
-- **ydata-profiling** / **pandas-profiling**: Data profiling libraries for generating comprehensive data reports. Automated EDA (Exploratory Data Analysis).
+- **[ydata-profiling](https://github.com/ydataai/ydata-profiling)** (11.8k GitHub stars): Data profiling and EDA. Comprehensive reports from DataFrames. Automated EDA (Exploratory Data Analysis). Successor to pandas-profiling.
 
 ### Data Version Control & MLOps
 - **[dvc](https://github.com/iterative/dvc)** (15.3k GitHub stars): Data Version Control - Data versioning and ML experiments. Git-like versioning for data and models.
