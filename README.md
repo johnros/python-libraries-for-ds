@@ -99,6 +99,7 @@ Curated list of python libraries for data, science, and data science.
 - **[Pandera](https://github.com/unionai/pandera)** (4.2k GitHub stars): DataFrame validation library. Schema validation, data quality checks. Works with Pandas, Polars, Dask.
 - **[Great Expectations](https://github.com/great-expectations/great_expectations)** (11.1k GitHub stars): Data validation and testing framework. Works with Pandas, Spark, SQL databases.
 - **[Pointblank](https://posit.co/blog/introducing-pointblank-for-python/)** (332 GitHub stars): Data validation and testing library from Posit (formerly RStudio). Works with Pandas, Polars, DuckDB, ....
+- **[Wimsey](https://github.com/benrutter/wimsey)** (170 GitHub stars): Lightweight, flexible data contract library. Tests DataFrames via Narwhals and supports contracts defined in YAML, JSON, or Python.
 
 
 ### Polars Ecosystem
@@ -190,6 +191,7 @@ Curated list of python libraries for data, science, and data science.
 
 ### Feature Engineering
 - **[Featuretools](https://github.com/alteryx/featuretools)** (7.6k GitHub stars): Automated feature engineering from relational and temporal data. Deep Feature Synthesis. Multi-table, time-aware feature generation.
+- **[tubular](https://github.com/azukds/tubular)** (92 GitHub stars): ML feature engineering and preprocessing transformers for Pandas and Polars DataFrames. Narwhals-based, scikit-learn `Pipeline` compatible with JSON-serializable pipelines.
 
 ## NLP
 
