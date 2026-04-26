@@ -89,6 +89,8 @@ Curated list of python libraries for data, science, and data science.
 - **[sktime](https://github.com/sktime/sktime)** (9.4k GitHub stars): Unified framework for machine learning with time series. Offers forecasting pipelines and composition tools. Scikit-learn compatible.
 - **[tsfresh](https://github.com/blue-yonder/tsfresh)** (9.1k GitHub stars): Automatic extraction of relevant features from time series data. Complements forecasting libraries like Prophet.
 - **[statsforecast](https://github.com/nixtla/statsforecast)** (4.6k GitHub stars): Lightning-fast forecasting library with statistical and econometric models. By Nixtla.
+- **[neuralforecast](https://github.com/Nixtla/neuralforecast)** (3.8k GitHub stars): Deep-learning forecasting models (NBEATS, NHITS, TFT, PatchTST, TimesNet, etc.) with a unified statsforecast-style API. By Nixtla.
+- **[darts](https://github.com/unit8co/darts)** (8.6k GitHub stars): Unified forecasting library covering classical (ARIMA, ETS), ML (LightGBM, CatBoost), and deep learning (RNN, NBEATS, TFT, TiDE) models. Probabilistic forecasts, backtesting, anomaly detection. By Unit8.
 - **[pandas-ta](https://github.com/twopirllc/pandas-ta)** (6.1k GitHub stars): Technical analysis indicators for time series. Pandas extension for technical analysis.
 
 ### GPU-Accelerated DataFrames
@@ -135,6 +137,8 @@ Curated list of python libraries for data, science, and data science.
 ### Causal Inference
 - **[DoWhy](https://github.com/py-why/dowhy)** (6.8k GitHub stars): End-to-end causal inference. Model, identify, estimate, refute. Graphical causal models and potential outcomes. Part of PyWhy ecosystem.
 - **[EconML](https://github.com/py-why/econml)** (7.2k GitHub stars): Microsoft's library for heterogeneous treatment effects. CATE estimation, instrumental variables, policy learning. Integrates with DoWhy.
+- **[CausalML](https://github.com/uber/causalml)** (5.4k GitHub stars): Uber's uplift modeling and causal inference library. Meta-learners (S/T/X/R-learner), tree-based uplift models, IV methods, sensitivity analysis. Scikit-learn API.
+- **[tfcausalimpact](https://github.com/WillianFuks/tfcausalimpact)** (650 GitHub stars): Bayesian structural time-series for causal impact analysis (e.g. estimating intervention effects in marketing/A-B tests). Python port of Google's R `CausalImpact`, TensorFlow Probability backend.
 
 ### Statistical Annotations and Post-Hoc
 - **[statannotations](https://github.com/trevismd/statannotations)** (822 GitHub stars): Add statistical test annotations (p-values, stars) to seaborn figures (box, bar, violin, etc.). Multiple-test correction options.
@@ -173,6 +177,13 @@ Curated list of python libraries for data, science, and data science.
 - **[shap](https://github.com/slundberg/shap)** (25k GitHub stars): SHAP (SHapley Additive exPlanations) values for model interpretation. Game theoretic approach to explain the output of any machine learning model.
 - **[lime](https://github.com/marcotcr/lime)** (12.1k GitHub stars): LIME (Local Interpretable Model-agnostic Explanations). Explaining the predictions of any machine learning classifier.
 - **[knockpy](https://amspector100.github.io/knockpy/)**: Implements the knockoff filter framework for feature selection. Akin to permutation importance, only that it accounts for the correlation structure of the features.
+- **[treeinterpreter](https://github.com/andosa/treeinterpreter)** (760+ GitHub stars): Decomposes scikit-learn tree and random forest predictions into bias plus per-feature contributions. Local explanations for individual predictions; works with `DecisionTree*`, `RandomForest*`, and `ExtraTrees*`.
+- **[InterpretML](https://github.com/interpretml/interpret)** (6.5k GitHub stars): Microsoft's unified framework for ML interpretability. Includes glassbox models (Explainable Boosting Machines / EBMs) and blackbox explainers (SHAP, LIME, PDP) under a single API with an interactive dashboard.
+- **[Captum](https://github.com/pytorch/captum)** (5.1k GitHub stars): Model interpretability for PyTorch. Integrated Gradients, DeepLIFT, GradientSHAP, layer/neuron attributions, attribution for vision and text. By Meta.
+- **[alibi](https://github.com/SeldonIO/alibi)** (2.5k GitHub stars): Black-box and white-box ML model inspection. Counterfactual explanations, anchors, ALE, contrastive explanations, prototypes. By Seldon.
+- **[dalex](https://github.com/ModelOriented/DALEX)** (1.4k GitHub stars): Model-agnostic explainers. Variable importance, PDP, ALE, break-down, Shapley values, model fairness. Python port of the R DALEX ecosystem.
+- **[PDPbox](https://github.com/SauceCat/PDPbox)** (850 GitHub stars): Partial Dependence Plot toolbox. PDP, ICE, and target plots for classification and regression models.
+- **[dtreeviz](https://github.com/parrt/dtreeviz)** (3k GitHub stars): Decision tree visualization and interpretation. Pretty per-split distributions and prediction paths for scikit-learn, XGBoost, LightGBM, Spark MLlib, TensorFlow.
 - **[eli5](https://github.com/TeamHG-Memex/eli5)** (2.8k GitHub stars): Library for debugging and inspecting machine learning classifiers and explaining predictions.
 - **[yellowbrick](https://github.com/DistrictDataLabs/yellowbrick)** (4.4k GitHub stars): ML visualization suite. Visual analysis and diagnostic tools for feature selection, model selection, and parameter tuning.
 
@@ -201,6 +212,11 @@ Curated list of python libraries for data, science, and data science.
 - **[Gensim](https://github.com/RaRe-Technologies/gensim)** (15.4k GitHub stars): Topic modeling (LDA), word embeddings (Word2Vec, FastText), document similarity. Unsupervised NLP for semantic analysis.
 - **[TextBlob](https://github.com/sloria/TextBlob)** (9.2k GitHub stars): Simple NLP for sentiment analysis, POS tagging, noun phrase extraction. Built on NLTK and Pattern. Easy API for quick text processing.
 - **[Stanza](https://github.com/stanfordnlp/stanza)** (7.2k GitHub stars): Stanford NLP Python port. Full neural pipeline for 66+ languages. Tokenization, POS, NER, dependency parsing, sentiment.
+- **[Flair](https://github.com/flairNLP/flair)** (14.1k GitHub stars): State-of-the-art NLP framework built on PyTorch. Stacked/contextual embeddings (Flair, BERT, ELMo), strong NER, POS, classification. Easy fine-tuning.
+- **[fastText](https://github.com/facebookresearch/fastText)** (26.3k GitHub stars): Library for efficient text classification and word representations. Subword embeddings, language identification, 157-language pretrained vectors. By Meta.
+
+### Embeddings & Sentence Representations
+- **[sentence-transformers](https://github.com/UKPLab/sentence-transformers)** (16.5k GitHub stars): Sentence, paragraph, and image embeddings via Siamese BERT/RoBERTa networks. Local models (e.g. all-MiniLM, MPNet) for semantic search, clustering, and RAG. Also referenced in Vector Databases.
 
 ## Computer Vision
 
@@ -558,6 +574,8 @@ Curated list of python libraries for data, science, and data science.
 
 ### Data Profiling & Quality
 - **[ydata-profiling](https://github.com/ydataai/ydata-profiling)** (11.8k GitHub stars): Data profiling and EDA. Comprehensive reports from DataFrames. Automated EDA (Exploratory Data Analysis). Successor to pandas-profiling.
+- **[sweetviz](https://github.com/fbdesignpro/sweetviz)** (3k GitHub stars): Automated EDA with target-aware analyses and side-by-side dataset comparison (train vs. test). Generates self-contained HTML reports.
+- **[dataprep](https://github.com/sfu-db/dataprep)** (2.1k GitHub stars): Fast EDA and data cleaning. `create_report`, `plot`, `plot_correlation`, `plot_missing`; also includes `connector` for web APIs and `clean` for column-level normalization.
 
 ### Data Version Control & MLOps
 - **[dvc](https://github.com/iterative/dvc)** (15.3k GitHub stars): Data Version Control - Data versioning and ML experiments. Git-like versioning for data and models.
